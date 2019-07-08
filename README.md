@@ -7,3 +7,4 @@ My name is 王昊謙.
 
 - Start learning git
 - Install RStudio
+- Testing add/push
