@@ -13,4 +13,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This is an R Markdown document, but I don't know how to write programs with `R` yet, so there's no much to show now.
 
-
+## Test
+```{r test_script}
+data <- read.table("test_data.csv", header = TRUE, sep = ",")
+data
+write.table(data, file = "test_output.csv", sep = " ")
+```
