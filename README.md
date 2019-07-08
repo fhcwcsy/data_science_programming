@@ -9,7 +9,7 @@ Student ID: B07202020 <br>
 School/Department: NTU Physics <br>
 
 
-## Schedule
+## Progress
 
 ### Week 1
 
