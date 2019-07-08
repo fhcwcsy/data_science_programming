@@ -1,7 +1,10 @@
 # cs-x-programming
 
+## Description
+
 Hello world!
 My name is 王昊謙.
+Student ID: B07202020
 
 ## Week 1
 
