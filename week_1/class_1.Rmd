@@ -1,0 +1,16 @@
+---
+title: "class_1"
+author: "fhcwcsy"
+date: "7/8/2019"
+output: html_document
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document, but I don't know how to write programs with `R` yet, so there's no much to show now.
+
+
