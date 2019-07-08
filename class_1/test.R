@@ -1,11 +1,6 @@
-i = 1
+library (gapminder)
+library (dplyr)
 
-repeat 
-{
-	cat("number",i,"\n")
-	if (i >= 10)
-	{
-		break
-	}
-	i = i+1
-}
+gapminder %>%
+	filter (year == 1957) %>%
+	arrange (desc(pop))
