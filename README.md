@@ -2,7 +2,6 @@
 
 ## Description
 
-Hello world! <br>
 This is a project for Data Science Programming summer course. <br>
 My name is 王昊謙. <br>
 Student ID: B07202020 <br>
