@@ -17,4 +17,4 @@ finally, merge the result:
 The complete results are too big to be printed here, but the files can be found in the following link:
 [water](https://github.com/fhcwcsy/data_science_programming/blob/master/week_1/day2/water_rearranged.csv)
 [malaria](https://github.com/fhcwcsy/data_science_programming/blob/master/week_1/day2/malaria_rearranged.csv)
-[combined](https://github.com/fhcwcsy/data_science_programming/blob/master/week_1/day2/merged.csv)
+[combined](https://github.com/fhcwcsy/data_science_programming/blob/master/week_1/day2/merged.csv) <br>
