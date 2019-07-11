@@ -18,5 +18,6 @@ School/Department: NTU Physics 2<br>
 - Creating a new RMarkdown [file](https://fhcwcsy.github.io/data_science_programming/week_1/class_1.html)
 
 **Day 2**
-- [file](https://fhcwcsy.github.io/data_science_programming/week_1/day2/note.html)
+- Installed several missing packages
+- Done hw1: [file](https://fhcwcsy.github.io/data_science_programming/week_1/day2/note.html)
 
