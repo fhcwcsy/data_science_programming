@@ -1,6 +1,9 @@
-# Week 2
+# Week 1, day 2
 
-I planned to examine relationship between water source availabilities and number of reported malaria cases. Therefore, I downloaded data about water sources and malaria cases from WHO. However, the both files about water sources need to be reorganized so they can be merged later.
+I planned to examine relationship between water source availabilities and number of reported malaria cases. Therefore, I downloaded data about water sources and malaria cases from WHO. <br>
+[water](http://apps.who.int/gho/data/node.main.A1364?lang=en) <br>
+[malaria](http://apps.who.int/gho/data/view.main.WSHWATERv?lang=en)
+However, the both files about water sources need to be reorganized so they can be merged later.
 ```{r code=readLines("~/Documents/summerproj/data_science_programming/week_1/day2/water.R")}
 ```
 Here's the result:
@@ -12,4 +15,6 @@ finally, merge the result:
 ```
 
 The complete results are too big to be printed here, but the files can be found in the following link:
-[water]()
+[water](https://github.com/fhcwcsy/data_science_programming/blob/master/week_1/day2/water_rearranged.csv)
+[malaria](https://github.com/fhcwcsy/data_science_programming/blob/master/week_1/day2/malaria_rearranged.csv)
+[combined](https://github.com/fhcwcsy/data_science_programming/blob/master/week_1/day2/merged.csv)

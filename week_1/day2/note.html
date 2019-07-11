@@ -379,7 +379,7 @@ $(document).ready(function () {
 
 <div id="week-2" class="section level1">
 <h1>Week 2</h1>
-<p>I planned to examine relationship between water source availabilities and number of reported malaria cases. Therefore, I downloaded data about water sources and malaria cases from WHO. However, the both files about water sources need to be reorganized so they can be merged later.</p>
+<p>I planned to examine relationship between water source availabilities and number of reported malaria cases. Therefore, I downloaded data about water sources and malaria cases from WHO. <br> <a href="http://apps.who.int/gho/data/node.main.A1364?lang=en">water</a> <br> <a href="http://apps.who.int/gho/data/view.main.WSHWATERv?lang=en">malaria</a> However, the both files about water sources need to be reorganized so they can be merged later.</p>
 <pre class="r"><code>library(dplyr)</code></pre>
 <pre><code>## 
 ## Attaching package: 'dplyr'</code></pre>
@@ -479,7 +479,7 @@ head(mergedResult) #print a few lines to see the result</code></pre>
 ## 5 Afghanistan 2004 5045 total       basic         35 433        242022
 ## 6 Afghanistan 2005 6209 total       basic         37 541        116444</code></pre>
 <pre class="r"><code>write.csv(arrange(mergedResult, desc(numberOfCases)), file = &quot;~/Documents/summerproj/data_science_programming/week_1/day2/merged.csv&quot;)</code></pre>
-<p>The complete results are too big to be printed here, but the files can be found in the following link: <a href>water</a></p>
+<p>The complete results are too big to be printed here, but the files can be found in the following link: <a href="https://github.com/fhcwcsy/data_science_programming/blob/master/week_1/day2/water_rearranged.csv">water</a> <a href="https://github.com/fhcwcsy/data_science_programming/blob/master/week_1/day2/malaria_rearranged.csv">malaria</a> <a href="https://github.com/fhcwcsy/data_science_programming/blob/master/week_1/day2/merged.csv">combined</a></p>
 </div>
 
 
