@@ -1,0 +1,1945 @@
+"","country","year","numberOfCases"
+"1","Afghanistan",2000,94475
+"2","Algeria",2000,541
+"3","Angola",2000,NA
+"4","Argentina",2000,440
+"5","Armenia",2000,141
+"6","Azerbaijan",2000,1526
+"7","Bangladesh",2000,55599
+"8","Belize",2000,1486
+"9","Benin",2000,NA
+"10","Bhutan",2000,5935
+"11","Bolivia (Plurinational State of)",2000,31469
+"12","Botswana",2000,10510
+"13","Brazil",2000,613241
+"14","Burkina Faso",2000,NA
+"15","Burundi",2000,308095
+"16","Cabo Verde",2000,144
+"17","Cambodia",2000,62442
+"18","Cameroon",2000,NA
+"19","Central African Republic",2000,33411
+"20","Chad",2000,40078
+"21","China",2000,8025
+"22","Colombia",2000,144432
+"23","Comoros",2000,801784
+"24","Congo",2000,15751
+"25","Costa Rica",2000,1879
+"26","Côte d'Ivoire",2000,15705
+"27","Democratic People's Republic of Korea",2000,90582
+"28","Democratic Republic of the Congo",2000,897
+"29","Djibouti",2000,NA
+"30","Dominican Republic",2000,1233
+"31","Ecuador",2000,104528
+"32","Egypt",2000,0
+"33","El Salvador",2000,753
+"34","Equatorial Guinea",2000,NA
+"35","Eritrea",2000,NA
+"36","Eswatini",2000,NA
+"37","Ethiopia",2000,NA
+"38","Gabon",2000,50810
+"39","Gambia",2000,NA
+"40","Georgia",2000,245
+"41","Ghana",2000,NA
+"42","Guatemala",2000,53311
+"43","Guinea",2000,4800
+"44","Guinea-Bissau",2000,NA
+"45","Guyana",2000,24018
+"46","Haiti",2000,16897
+"47","Honduras",2000,35125
+"48","India",2000,2031790
+"49","Indonesia",2000,245612
+"50","Iran (Islamic Republic of)",2000,19716
+"51","Iraq",2000,1860
+"52","Kazakhstan",2000,NA
+"53","Kenya",2000,NA
+"54","Kyrgyzstan",2000,12
+"55","Lao People's Democratic Republic",2000,40106
+"56","Liberia",2000,NA
+"57","Madagascar",2000,6946
+"58","Malawi",2000,NA
+"59","Malaysia",2000,12705
+"60","Mali",2000,NA
+"61","Mauritania",2000,NA
+"62","Mauritius",2000,NA
+"63","Mexico",2000,7390
+"64","Morocco",2000,3
+"65","Mozambique",2000,NA
+"66","Myanmar",2000,120083
+"67","Namibia",2000,NA
+"68","Nepal",2000,7981
+"69","Nicaragua",2000,23878
+"70","Niger",2000,NA
+"71","Nigeria",2000,NA
+"72","Oman",2000,6
+"73","Pakistan",2000,82526
+"74","Panama",2000,1036
+"75","Papua New Guinea",2000,79839
+"76","Paraguay",2000,6853
+"77","Peru",2000,68321
+"78","Philippines",2000,36596
+"79","Republic of Korea",2000,4183
+"80","Rwanda",2000,NA
+"81","Sao Tome and Principe",2000,31975
+"82","Saudi Arabia",2000,6608
+"83","Senegal",2000,44959
+"84","Sierra Leone",2000,NA
+"85","Solomon Islands",2000,68107
+"86","Somalia",2000,NA
+"87","South Africa",2000,NA
+"88","South Sudan",2000,NA
+"89","Sri Lanka",2000,210039
+"90","Sudan",2000,368557
+"91","Suriname",2000,11361
+"92","Syrian Arab Republic",2000,6
+"93","Tajikistan",2000,19064
+"94","Thailand",2000,78561
+"95","Timor-Leste",2000,15212
+"96","Togo",2000,NA
+"97","Turkey",2000,11432
+"98","Turkmenistan",2000,24
+"99","Uganda",2000,NA
+"100","United Arab Emirates",2000,NA
+"101","United Republic of Tanzania",2000,17734
+"102","Uzbekistan",2000,126
+"103","Vanuatu",2000,6768
+"104","Venezuela (Bolivarian Republic of)",2000,29736
+"105","Viet Nam",2000,74316
+"106","Yemen",2000,1394495
+"107","Zambia",2000,NA
+"108","Zimbabwe",2000,NA
+"109","Afghanistan",2001,50850
+"110","Algeria",2001,435
+"111","Angola",2001,NA
+"112","Argentina",2001,215
+"113","Armenia",2001,79
+"114","Azerbaijan",2001,1058
+"115","Bangladesh",2001,54216
+"116","Belize",2001,1162
+"117","Benin",2001,NA
+"118","Bhutan",2001,5982
+"119","Bolivia (Plurinational State of)",2001,15765
+"120","Botswana",2001,3720
+"121","Brazil",2001,388303
+"122","Burkina Faso",2001,NA
+"123","Burundi",2001,312015
+"124","Cabo Verde",2001,107
+"125","Cambodia",2001,53601
+"126","Cameroon",2001,NA
+"127","Central African Republic",2001,39164
+"128","Chad",2001,38287
+"129","China",2001,21237
+"130","Colombia",2001,231233
+"131","Comoros",2001,879032
+"132","Congo",2001,11981
+"133","Costa Rica",2001,1363
+"134","Côte d'Ivoire",2001,11936
+"135","Democratic People's Republic of Korea",2001,143674
+"136","Democratic Republic of the Congo",2001,1531
+"137","Djibouti",2001,NA
+"138","Dominican Republic",2001,1038
+"139","Ecuador",2001,108903
+"140","Egypt",2001,0
+"141","El Salvador",2001,362
+"142","Equatorial Guinea",2001,NA
+"143","Eritrea",2001,9716
+"144","Eswatini",2001,1395
+"145","Ethiopia",2001,392377
+"146","Gabon",2001,53167
+"147","Gambia",2001,NA
+"148","Georgia",2001,438
+"149","Ghana",2001,NA
+"150","Guatemala",2001,35824
+"151","Guinea",2001,6238
+"152","Guinea-Bissau",2001,NA
+"153","Guyana",2001,27122
+"154","Haiti",2001,9837
+"155","Honduras",2001,24149
+"156","India",2001,2085484
+"157","Indonesia",2001,267592
+"158","Iran (Islamic Republic of)",2001,19303
+"159","Iraq",2001,1265
+"160","Kazakhstan",2001,NA
+"161","Kenya",2001,NA
+"162","Kyrgyzstan",2001,28
+"163","Lao People's Democratic Republic",2001,27076
+"164","Liberia",2001,NA
+"165","Madagascar",2001,8538
+"166","Malawi",2001,NA
+"167","Malaysia",2001,12780
+"168","Mali",2001,NA
+"169","Mauritania",2001,NA
+"170","Mauritius",2001,NA
+"171","Mexico",2001,4996
+"172","Morocco",2001,0
+"173","Mozambique",2001,NA
+"174","Myanmar",2001,170502
+"175","Namibia",2001,41636
+"176","Nepal",2001,6396
+"177","Nicaragua",2001,10482
+"178","Niger",2001,NA
+"179","Nigeria",2001,NA
+"180","Oman",2001,2
+"181","Pakistan",2001,125292
+"182","Panama",2001,928
+"183","Papua New Guinea",2001,94484
+"184","Paraguay",2001,2710
+"185","Peru",2001,78544
+"186","Philippines",2001,34787
+"187","Republic of Korea",2001,2556
+"188","Rwanda",2001,423493
+"189","Sao Tome and Principe",2001,42086
+"190","Saudi Arabia",2001,3074
+"191","Senegal",2001,12920
+"192","Sierra Leone",2001,2206
+"193","Solomon Islands",2001,76493
+"194","Somalia",2001,NA
+"195","South Africa",2001,26506
+"196","South Sudan",2001,NA
+"197","Sri Lanka",2001,66522
+"198","Sudan",2001,203491
+"199","Suriname",2001,16003
+"200","Syrian Arab Republic",2001,63
+"201","Tajikistan",2001,11387
+"202","Thailand",2001,63528
+"203","Timor-Leste",2001,NA
+"204","Togo",2001,NA
+"205","Turkey",2001,10812
+"206","Turkmenistan",2001,8
+"207","Uganda",2001,NA
+"208","United Arab Emirates",2001,NA
+"209","United Republic of Tanzania",2001,38537
+"210","Uzbekistan",2001,77
+"211","Vanuatu",2001,7647
+"212","Venezuela (Bolivarian Republic of)",2001,20006
+"213","Viet Nam",2001,68699
+"214","Yemen",2001,NA
+"215","Zambia",2001,NA
+"216","Zimbabwe",2001,NA
+"217","Afghanistan",2002,415356
+"218","Algeria",2002,307
+"219","Angola",2002,NA
+"220","Argentina",2002,125
+"221","Armenia",2002,52
+"222","Azerbaijan",2002,506
+"223","Bangladesh",2002,62269
+"224","Belize",2002,1134
+"225","Benin",2002,NA
+"226","Bhutan",2002,6511
+"227","Bolivia (Plurinational State of)",2002,14276
+"228","Botswana",2002,1640
+"229","Brazil",2002,348259
+"230","Burkina Faso",2002,NA
+"231","Burundi",2002,327138
+"232","Cabo Verde",2002,76
+"233","Cambodia",2002,46902
+"234","Cameroon",2002,NA
+"235","Central African Republic",2002,43093
+"236","Chad",2002,43933
+"237","China",2002,25520
+"238","Colombia",2002,204916
+"239","Comoros",2002,1104310
+"240","Congo",2002,7677
+"241","Costa Rica",2002,1021
+"242","Côte d'Ivoire",2002,7628
+"243","Democratic People's Republic of Korea",2002,16578
+"244","Democratic Republic of the Congo",2002,1735
+"245","Djibouti",2002,NA
+"246","Dominican Republic",2002,1296
+"247","Ecuador",2002,86757
+"248","Egypt",2002,0
+"249","El Salvador",2002,117
+"250","Equatorial Guinea",2002,NA
+"251","Eritrea",2002,6078
+"252","Eswatini",2002,670
+"253","Ethiopia",2002,427795
+"254","Gabon",2002,62976
+"255","Gambia",2002,NA
+"256","Georgia",2002,474
+"257","Ghana",2002,NA
+"258","Guatemala",2002,35540
+"259","Guinea",2002,16561
+"260","Guinea-Bissau",2002,NA
+"261","Guyana",2002,21895
+"262","Haiti",2002,NA
+"263","Honduras",2002,17223
+"264","India",2002,1841227
+"265","Indonesia",2002,273793
+"266","Iran (Islamic Republic of)",2002,15558
+"267","Iraq",2002,952
+"268","Kazakhstan",2002,NA
+"269","Kenya",2002,20049
+"270","Kyrgyzstan",2002,2743
+"271","Lao People's Democratic Republic",2002,21420
+"272","Liberia",2002,NA
+"273","Madagascar",2002,5272
+"274","Malawi",2002,NA
+"275","Malaysia",2002,11019
+"276","Mali",2002,NA
+"277","Mauritania",2002,NA
+"278","Mauritius",2002,NA
+"279","Mexico",2002,4624
+"280","Morocco",2002,19
+"281","Mozambique",2002,NA
+"282","Myanmar",2002,173096
+"283","Namibia",2002,23984
+"284","Nepal",2002,12750
+"285","Nicaragua",2002,7695
+"286","Niger",2002,NA
+"287","Nigeria",2002,NA
+"288","Oman",2002,6
+"289","Pakistan",2002,107666
+"290","Panama",2002,2244
+"291","Papua New Guinea",2002,75748
+"292","Paraguay",2002,2778
+"293","Peru",2002,99237
+"294","Philippines",2002,37005
+"295","Republic of Korea",2002,1799
+"296","Rwanda",2002,506028
+"297","Sao Tome and Principe",2002,50586
+"298","Saudi Arabia",2002,2612
+"299","Senegal",2002,14425
+"300","Sierra Leone",2002,3702
+"301","Solomon Islands",2002,74936
+"302","Somalia",2002,15732
+"303","South Africa",2002,15649
+"304","South Sudan",2002,NA
+"305","Sri Lanka",2002,41411
+"306","Sudan",2002,280550
+"307","Suriname",2002,12837
+"308","Syrian Arab Republic",2002,15
+"309","Tajikistan",2002,6160
+"310","Thailand",2002,44555
+"311","Timor-Leste",2002,26651
+"312","Togo",2002,NA
+"313","Turkey",2002,10224
+"314","Turkmenistan",2002,18
+"315","Uganda",2002,557159
+"316","United Arab Emirates",2002,NA
+"317","United Republic of Tanzania",2002,42468
+"318","Uzbekistan",2002,74
+"319","Vanuatu",2002,14339
+"320","Venezuela (Bolivarian Republic of)",2002,29491
+"321","Viet Nam",2002,47807
+"322","Yemen",2002,75508
+"323","Zambia",2002,NA
+"324","Zimbabwe",2002,NA
+"325","Afghanistan",2003,360940
+"326","Algeria",2003,427
+"327","Angola",2003,NA
+"328","Argentina",2003,122
+"329","Armenia",2003,29
+"330","Azerbaijan",2003,482
+"331","Bangladesh",2003,54654
+"332","Belize",2003,1084
+"333","Benin",2003,NA
+"334","Bhutan",2003,3806
+"335","Bolivia (Plurinational State of)",2003,20343
+"336","Botswana",2003,591
+"337","Brazil",2003,408886
+"338","Burkina Faso",2003,NA
+"339","Burundi",2003,353459
+"340","Cabo Verde",2003,68
+"341","Cambodia",2003,71265
+"342","Cameroon",2003,NA
+"343","Central African Republic",2003,37896
+"344","Chad",2003,45195
+"345","China",2003,28491
+"346","Colombia",2003,180956
+"347","Comoros",2003,867398
+"348","Congo",2003,1633
+"349","Costa Rica",2003,718
+"350","Côte d'Ivoire",2003,1585
+"351","Democratic People's Republic of Korea",2003,16538
+"352","Democratic Republic of the Congo",2003,2438
+"353","Djibouti",2003,5036
+"354","Dominican Republic",2003,1529
+"355","Ecuador",2003,52065
+"356","Egypt",2003,0
+"357","El Salvador",2003,85
+"358","Equatorial Guinea",2003,NA
+"359","Eritrea",2003,10346
+"360","Eswatini",2003,342
+"361","Ethiopia",2003,463797
+"362","Gabon",2003,58212
+"363","Gambia",2003,NA
+"364","Georgia",2003,316
+"365","Ghana",2003,NA
+"366","Guatemala",2003,31127
+"367","Guinea",2003,107925
+"368","Guinea-Bissau",2003,NA
+"369","Guyana",2003,27627
+"370","Haiti",2003,NA
+"371","Honduras",2003,14063
+"372","India",2003,1869403
+"373","Indonesia",2003,223074
+"374","Iran (Islamic Republic of)",2003,23562
+"375","Iraq",2003,347
+"376","Kazakhstan",2003,NA
+"377","Kenya",2003,39383
+"378","Kyrgyzstan",2003,468
+"379","Lao People's Democratic Republic",2003,18894
+"380","Liberia",2003,NA
+"381","Madagascar",2003,6909
+"382","Malawi",2003,NA
+"383","Malaysia",2003,6338
+"384","Mali",2003,NA
+"385","Mauritania",2003,NA
+"386","Mauritius",2003,NA
+"387","Mexico",2003,3819
+"388","Morocco",2003,4
+"389","Mozambique",2003,NA
+"390","Myanmar",2003,177530
+"391","Namibia",2003,20295
+"392","Nepal",2003,9506
+"393","Nicaragua",2003,6717
+"394","Niger",2003,56460
+"395","Nigeria",2003,NA
+"396","Oman",2003,6
+"397","Pakistan",2003,125152
+"398","Panama",2003,4500
+"399","Papua New Guinea",2003,72620
+"400","Paraguay",2003,1392
+"401","Peru",2003,88408
+"402","Philippines",2003,48441
+"403","Republic of Korea",2003,1171
+"404","Rwanda",2003,553150
+"405","Sao Tome and Principe",2003,42656
+"406","Saudi Arabia",2003,1724
+"407","Senegal",2003,26865
+"408","Sierra Leone",2003,3945
+"409","Solomon Islands",2003,92227
+"410","Somalia",2003,7571
+"411","South Africa",2003,13459
+"412","South Sudan",2003,NA
+"413","Sri Lanka",2003,10510
+"414","Sudan",2003,933267
+"415","Suriname",2003,10982
+"416","Syrian Arab Republic",2003,2
+"417","Tajikistan",2003,5428
+"418","Thailand",2003,37355
+"419","Timor-Leste",2003,33411
+"420","Togo",2003,NA
+"421","Turkey",2003,9222
+"422","Turkmenistan",2003,7
+"423","Uganda",2003,801784
+"424","United Arab Emirates",2003,NA
+"425","United Republic of Tanzania",2003,1976614
+"426","Uzbekistan",2003,74
+"427","Vanuatu",2003,15240
+"428","Venezuela (Bolivarian Republic of)",2003,31719
+"429","Viet Nam",2003,38790
+"430","Yemen",2003,50811
+"431","Zambia",2003,NA
+"432","Zimbabwe",2003,NA
+"433","Afghanistan",2004,242022
+"434","Algeria",2004,163
+"435","Angola",2004,NA
+"436","Argentina",2004,115
+"437","Armenia",2004,47
+"438","Azerbaijan",2004,386
+"439","Bangladesh",2004,58894
+"440","Belize",2004,1066
+"441","Benin",2004,NA
+"442","Bhutan",2004,2670
+"443","Bolivia (Plurinational State of)",2004,14910
+"444","Botswana",2004,198
+"445","Brazil",2004,465004
+"446","Burkina Faso",2004,18256
+"447","Burundi",2004,363395
+"448","Cabo Verde",2004,45
+"449","Cambodia",2004,59745
+"450","Cameroon",2004,NA
+"451","Central African Republic",2004,46869
+"452","Chad",2004,1360
+"453","China",2004,27197
+"454","Colombia",2004,142241
+"455","Comoros",2004,12874
+"456","Congo",2004,293
+"457","Costa Rica",2004,1289
+"458","Côte d'Ivoire",2004,293
+"459","Democratic People's Republic of Korea",2004,27090
+"460","Democratic Republic of the Congo",2004,2684
+"461","Djibouti",2004,122
+"462","Dominican Republic",2004,2355
+"463","Ecuador",2004,28730
+"464","Egypt",2004,0
+"465","El Salvador",2004,112
+"466","Equatorial Guinea",2004,NA
+"467","Eritrea",2004,4119
+"468","Eswatini",2004,574
+"469","Ethiopia",2004,578904
+"470","Gabon",2004,70075
+"471","Gambia",2004,NA
+"472","Georgia",2004,257
+"473","Ghana",2004,475441
+"474","Guatemala",2004,28955
+"475","Guinea",2004,103069
+"476","Guinea-Bissau",2004,NA
+"477","Guyana",2004,28866
+"478","Haiti",2004,10802
+"479","Honduras",2004,17134
+"480","India",2004,1915363
+"481","Indonesia",2004,304936
+"482","Iran (Islamic Republic of)",2004,13821
+"483","Iraq",2004,155
+"484","Kazakhstan",2004,NA
+"485","Kenya",2004,28328
+"486","Kyrgyzstan",2004,93
+"487","Lao People's Democratic Republic",2004,16183
+"488","Liberia",2004,NA
+"489","Madagascar",2004,7638
+"490","Malawi",2004,NA
+"491","Malaysia",2004,6154
+"492","Mali",2004,NA
+"493","Mauritania",2004,NA
+"494","Mauritius",2004,NA
+"495","Mexico",2004,3406
+"496","Morocco",2004,1
+"497","Mozambique",2004,NA
+"498","Myanmar",2004,152070
+"499","Namibia",2004,36043
+"500","Nepal",2004,4895
+"501","Nicaragua",2004,6897
+"502","Niger",2004,76030
+"503","Nigeria",2004,NA
+"504","Oman",2004,0
+"505","Pakistan",2004,126719
+"506","Panama",2004,5095
+"507","Papua New Guinea",2004,91055
+"508","Paraguay",2004,694
+"509","Peru",2004,93581
+"510","Philippines",2004,50850
+"511","Republic of Korea",2004,864
+"512","Rwanda",2004,589315
+"513","Sao Tome and Principe",2004,46486
+"514","Saudi Arabia",2004,1232
+"515","Senegal",2004,22234
+"516","Sierra Leone",2004,2206
+"517","Solomon Islands",2004,90297
+"518","Somalia",2004,11436
+"519","South Africa",2004,13399
+"520","South Sudan",2004,NA
+"521","Sri Lanka",2004,3720
+"522","Sudan",2004,537899
+"523","Suriname",2004,8378
+"524","Syrian Arab Republic",2004,1
+"525","Tajikistan",2004,3588
+"526","Thailand",2004,26690
+"527","Timor-Leste",2004,39164
+"528","Togo",2004,NA
+"529","Turkey",2004,5302
+"530","Turkmenistan",2004,3
+"531","Uganda",2004,879032
+"532","United Arab Emirates",2004,NA
+"533","United Republic of Tanzania",2004,2502382
+"534","Uzbekistan",2004,66
+"535","Vanuatu",2004,14653
+"536","Venezuela (Bolivarian Republic of)",2004,46655
+"537","Viet Nam",2004,24909
+"538","Yemen",2004,48756
+"539","Zambia",2004,NA
+"540","Zimbabwe",2004,16990
+"541","Afghanistan",2005,116444
+"542","Algeria",2005,299
+"543","Angola",2005,889572
+"544","Argentina",2005,252
+"545","Armenia",2005,7
+"546","Azerbaijan",2005,242
+"547","Bangladesh",2005,48121
+"548","Belize",2005,1549
+"549","Benin",2005,NA
+"550","Bhutan",2005,1825
+"551","Bolivia (Plurinational State of)",2005,21442
+"552","Botswana",2005,670
+"553","Brazil",2005,606067
+"554","Burkina Faso",2005,21335
+"555","Burundi",2005,327464
+"556","Cabo Verde",2005,68
+"557","Cambodia",2005,49436
+"558","Cameroon",2005,NA
+"559","Central African Republic",2005,45973
+"560","Chad",2005,31668
+"561","China",2005,21936
+"562","Colombia",2005,121629
+"563","Comoros",2005,6086
+"564","Congo",2005,67
+"565","Costa Rica",2005,3541
+"566","Côte d'Ivoire",2005,67
+"567","Democratic People's Republic of Korea",2005,11315
+"568","Democratic Republic of the Congo",2005,2971
+"569","Djibouti",2005,413
+"570","Dominican Republic",2005,3837
+"571","Ecuador",2005,17050
+"572","Egypt",2005,0
+"573","El Salvador",2005,67
+"574","Equatorial Guinea",2005,NA
+"575","Eritrea",2005,9073
+"576","Eswatini",2005,279
+"577","Ethiopia",2005,538942
+"578","Gabon",2005,70644
+"579","Gambia",2005,NA
+"580","Georgia",2005,155
+"581","Ghana",2005,655093
+"582","Guatemala",2005,39571
+"583","Guinea",2005,50452
+"584","Guinea-Bissau",2005,14659
+"585","Guyana",2005,38984
+"586","Haiti",2005,21778
+"587","Honduras",2005,15943
+"588","India",2005,1816569
+"589","Indonesia",2005,437323
+"590","Iran (Islamic Republic of)",2005,18966
+"591","Iraq",2005,47
+"592","Kazakhstan",2005,NA
+"593","Kenya",2005,NA
+"594","Kyrgyzstan",2005,226
+"595","Lao People's Democratic Republic",2005,13615
+"596","Liberia",2005,44875
+"597","Madagascar",2005,6753
+"598","Malawi",2005,NA
+"599","Malaysia",2005,5569
+"600","Mali",2005,NA
+"601","Mauritania",2005,NA
+"602","Mauritius",2005,NA
+"603","Mexico",2005,2967
+"604","Morocco",2005,0
+"605","Mozambique",2005,NA
+"606","Myanmar",2005,165737
+"607","Namibia",2005,23339
+"608","Nepal",2005,5050
+"609","Nicaragua",2005,6642
+"610","Niger",2005,56043
+"611","Nigeria",2005,NA
+"612","Oman",2005,0
+"613","Pakistan",2005,127826
+"614","Panama",2005,3667
+"615","Papua New Guinea",2005,92957
+"616","Paraguay",2005,376
+"617","Peru",2005,87699
+"618","Philippines",2005,46342
+"619","Republic of Korea",2005,1369
+"620","Rwanda",2005,683769
+"621","Sao Tome and Principe",2005,18139
+"622","Saudi Arabia",2005,1059
+"623","Senegal",2005,33160
+"624","Sierra Leone",2005,4808
+"625","Solomon Islands",2005,76390
+"626","Somalia",2005,12516
+"627","South Africa",2005,7755
+"628","South Sudan",2005,NA
+"629","Sri Lanka",2005,1640
+"630","Sudan",2005,628417
+"631","Suriname",2005,9131
+"632","Syrian Arab Republic",2005,0
+"633","Tajikistan",2005,2309
+"634","Thailand",2005,29782
+"635","Timor-Leste",2005,43093
+"636","Togo",2005,NA
+"637","Turkey",2005,2084
+"638","Turkmenistan",2005,1
+"639","Uganda",2005,1104310
+"640","United Arab Emirates",2005,NA
+"641","United Republic of Tanzania",2005,2764049
+"642","Uzbekistan",2005,102
+"643","Vanuatu",2005,9834
+"644","Venezuela (Bolivarian Republic of)",2005,45049
+"645","Viet Nam",2005,19496
+"646","Yemen",2005,44150
+"647","Zambia",2005,NA
+"648","Zimbabwe",2005,18954
+"649","Afghanistan",2006,86129
+"650","Algeria",2006,117
+"651","Angola",2006,1082398
+"652","Argentina",2006,212
+"653","Armenia",2006,0
+"654","Azerbaijan",2006,143
+"655","Bangladesh",2006,32857
+"656","Belize",2006,844
+"657","Benin",2006,NA
+"658","Bhutan",2006,1868
+"659","Bolivia (Plurinational State of)",2006,19725
+"660","Botswana",2006,2548
+"661","Brazil",2006,549469
+"662","Burkina Faso",2006,44265
+"663","Burundi",2006,791731
+"664","Cabo Verde",2006,80
+"665","Cambodia",2006,78696
+"666","Cameroon",2006,NA
+"667","Central African Republic",2006,NA
+"668","Chad",2006,45155
+"669","China",2006,35383
+"670","Colombia",2006,120096
+"671","Comoros",2006,20559
+"672","Congo",2006,NA
+"673","Costa Rica",2006,2903
+"674","Côte d'Ivoire",2006,NA
+"675","Democratic People's Republic of Korea",2006,12983
+"676","Democratic Republic of the Congo",2006,2050
+"677","Djibouti",2006,1796
+"678","Dominican Republic",2006,3525
+"679","Ecuador",2006,9863
+"680","Egypt",2006,0
+"681","El Salvador",2006,49
+"682","Equatorial Guinea",2006,NA
+"683","Eritrea",2006,6541
+"684","Eswatini",2006,155
+"685","Ethiopia",2006,447780
+"686","Gabon",2006,33458
+"687","Gambia",2006,NA
+"688","Georgia",2006,59
+"689","Ghana",2006,472255
+"690","Guatemala",2006,31093
+"691","Guinea",2006,54227
+"692","Guinea-Bissau",2006,15120
+"693","Guyana",2006,21064
+"694","Haiti",2006,32739
+"695","Honduras",2006,11947
+"696","India",2006,1785109
+"697","Indonesia",2006,347597
+"698","Iran (Islamic Republic of)",2006,15909
+"699","Iraq",2006,24
+"700","Kazakhstan",2006,NA
+"701","Kenya",2006,NA
+"702","Kyrgyzstan",2006,317
+"703","Lao People's Democratic Republic",2006,18382
+"704","Liberia",2006,761415
+"705","Madagascar",2006,5689
+"706","Malawi",2006,NA
+"707","Malaysia",2006,5294
+"708","Mali",2006,NA
+"709","Mauritania",2006,1061
+"710","Mauritius",2006,NA
+"711","Mexico",2006,2514
+"712","Morocco",2006,0
+"713","Mozambique",2006,NA
+"714","Myanmar",2006,203071
+"715","Namibia",2006,27690
+"716","Nepal",2006,4969
+"717","Nicaragua",2006,3114
+"718","Niger",2006,3956
+"719","Nigeria",2006,NA
+"720","Oman",2006,0
+"721","Pakistan",2006,124910
+"722","Panama",2006,1663
+"723","Papua New Guinea",2006,93938
+"724","Paraguay",2006,823
+"725","Peru",2006,64925
+"726","Philippines",2006,35405
+"727","Republic of Korea",2006,2051
+"728","Rwanda",2006,573686
+"729","Sao Tome and Principe",2006,5146
+"730","Saudi Arabia",2006,1278
+"731","Senegal",2006,48070
+"732","Sierra Leone",2006,4932
+"733","Solomon Islands",2006,75337
+"734","Somalia",2006,16430
+"735","South Africa",2006,12098
+"736","South Sudan",2006,NA
+"737","Sri Lanka",2006,591
+"738","Sudan",2006,721233
+"739","Suriname",2006,3289
+"740","Syrian Arab Republic",2006,0
+"741","Tajikistan",2006,1344
+"742","Thailand",2006,30294
+"743","Timor-Leste",2006,37896
+"744","Togo",2006,NA
+"745","Turkey",2006,796
+"746","Turkmenistan",2006,1
+"747","Uganda",2006,867398
+"748","United Arab Emirates",2006,NA
+"749","United Republic of Tanzania",2006,1928296
+"750","Uzbekistan",2006,73
+"751","Vanuatu",2006,8055
+"752","Venezuela (Bolivarian Republic of)",2006,37062
+"753","Viet Nam",2006,22637
+"754","Yemen",2006,55000
+"755","Zambia",2006,NA
+"756","Zimbabwe",2006,19702
+"757","Afghanistan",2007,92202
+"758","Algeria",2007,288
+"759","Angola",2007,1533485
+"760","Argentina",2007,387
+"761","Armenia",2007,0
+"762","Azerbaijan",2007,108
+"763","Bangladesh",2007,59866
+"764","Belize",2007,845
+"765","Benin",2007,NA
+"766","Bhutan",2007,793
+"767","Bolivia (Plurinational State of)",2007,14610
+"768","Botswana",2007,390
+"769","Brazil",2007,458652
+"770","Burkina Faso",2007,44246
+"771","Burundi",2007,1101644
+"772","Cabo Verde",2007,18
+"773","Cambodia",2007,42518
+"774","Cameroon",2007,NA
+"775","Central African Republic",2007,NA
+"776","Chad",2007,48288
+"777","China",2007,29304
+"778","Colombia",2007,128462
+"779","Comoros",2007,NA
+"780","Congo",2007,103213
+"781","Costa Rica",2007,1223
+"782","Côte d'Ivoire",2007,NA
+"783","Democratic People's Republic of Korea",2007,4345
+"784","Democratic Republic of the Congo",2007,740858
+"785","Djibouti",2007,210
+"786","Dominican Republic",2007,2711
+"787","Ecuador",2007,8464
+"788","Egypt",2007,0
+"789","El Salvador",2007,40
+"790","Equatorial Guinea",2007,6287
+"791","Eritrea",2007,15565
+"792","Eswatini",2007,84
+"793","Ethiopia",2007,451816
+"794","Gabon",2007,45186
+"795","Gambia",2007,NA
+"796","Georgia",2007,24
+"797","Ghana",2007,476484
+"798","Guatemala",2007,15382
+"799","Guinea",2007,44518
+"800","Guinea-Bissau",2007,14284
+"801","Guyana",2007,11656
+"802","Haiti",2007,29825
+"803","Honduras",2007,10512
+"804","India",2007,1508927
+"805","Indonesia",2007,311789
+"806","Iran (Islamic Republic of)",2007,15712
+"807","Iraq",2007,3
+"808","Kazakhstan",2007,NA
+"809","Kenya",2007,NA
+"810","Kyrgyzstan",2007,96
+"811","Lao People's Democratic Republic",2007,17458
+"812","Liberia",2007,492272
+"813","Madagascar",2007,48497
+"814","Malawi",2007,NA
+"815","Malaysia",2007,4048
+"816","Mali",2007,NA
+"817","Mauritania",2007,NA
+"818","Mauritius",2007,NA
+"819","Mexico",2007,2361
+"820","Morocco",2007,0
+"821","Mozambique",2007,141663
+"822","Myanmar",2007,373958
+"823","Namibia",2007,4242
+"824","Nepal",2007,5621
+"825","Nicaragua",2007,1356
+"826","Niger",2007,249027
+"827","Nigeria",2007,NA
+"828","Oman",2007,4
+"829","Pakistan",2007,128570
+"830","Panama",2007,1281
+"831","Papua New Guinea",2007,86955
+"832","Paraguay",2007,1341
+"833","Peru",2007,50797
+"834","Philippines",2007,36235
+"835","Republic of Korea",2007,2227
+"836","Rwanda",2007,382686
+"837","Sao Tome and Principe",2007,2421
+"838","Saudi Arabia",2007,467
+"839","Senegal",2007,118332
+"840","Sierra Leone",2007,NA
+"841","Solomon Islands",2007,65404
+"842","Somalia",2007,16675
+"843","South Africa",2007,6327
+"844","South Sudan",2007,NA
+"845","Sri Lanka",2007,198
+"846","Sudan",2007,686908
+"847","Suriname",2007,1741
+"848","Syrian Arab Republic",2007,0
+"849","Tajikistan",2007,635
+"850","Thailand",2007,33178
+"851","Timor-Leste",2007,52813
+"852","Togo",2007,221110
+"853","Turkey",2007,313
+"854","Turkmenistan",2007,0
+"855","Uganda",2007,1045378
+"856","United Arab Emirates",2007,NA
+"857","United Republic of Tanzania",2007,1845917
+"858","Uzbekistan",2007,30
+"859","Vanuatu",2007,5471
+"860","Venezuela (Bolivarian Republic of)",2007,41749
+"861","Viet Nam",2007,16389
+"862","Yemen",2007,67677
+"863","Zambia",2007,NA
+"864","Zimbabwe",2007,116518
+"865","Afghanistan",2008,81574
+"866","Algeria",2008,3
+"867","Angola",2008,1377992
+"868","Argentina",2008,130
+"869","Armenia",2008,0
+"870","Azerbaijan",2008,72
+"871","Bangladesh",2008,84690
+"872","Belize",2008,540
+"873","Benin",2008,NA
+"874","Bhutan",2008,329
+"875","Bolivia (Plurinational State of)",2008,9748
+"876","Botswana",2008,927
+"877","Brazil",2008,315746
+"878","Burkina Faso",2008,36514
+"879","Burundi",2008,876741
+"880","Cabo Verde",2008,35
+"881","Cambodia",2008,42124
+"882","Cameroon",2008,NA
+"883","Central African Republic",2008,NA
+"884","Chad",2008,47757
+"885","China",2008,16650
+"886","Colombia",2008,80559
+"887","Comoros",2008,NA
+"888","Congo",2008,117291
+"889","Costa Rica",2008,966
+"890","Côte d'Ivoire",2008,3527
+"891","Democratic People's Republic of Korea",2008,16611
+"892","Democratic Republic of the Congo",2008,1618218
+"893","Djibouti",2008,119
+"894","Dominican Republic",2008,1840
+"895","Ecuador",2008,4891
+"896","Egypt",2008,0
+"897","El Salvador",2008,33
+"898","Equatorial Guinea",2008,9503
+"899","Eritrea",2008,8764
+"900","Eswatini",2008,58
+"901","Ethiopia",2008,458561
+"902","Gabon",2008,40701
+"903","Gambia",2008,39164
+"904","Georgia",2008,6
+"905","Ghana",2008,1094483
+"906","Guatemala",2008,7198
+"907","Guinea",2008,33405
+"908","Guinea-Bissau",2008,11299
+"909","Guyana",2008,11815
+"910","Haiti",2008,36774
+"911","Honduras",2008,8368
+"912","India",2008,1532497
+"913","Indonesia",2008,349231
+"914","Iran (Islamic Republic of)",2008,8349
+"915","Iraq",2008,2
+"916","Kazakhstan",2008,NA
+"917","Kenya",2008,839903
+"918","Kyrgyzstan",2008,18
+"919","Lao People's Democratic Republic",2008,19347
+"920","Liberia",2008,606952
+"921","Madagascar",2008,93234
+"922","Malawi",2008,NA
+"923","Malaysia",2008,6071
+"924","Mali",2008,NA
+"925","Mauritania",2008,302
+"926","Mauritius",2008,NA
+"927","Mexico",2008,2357
+"928","Morocco",2008,0
+"929","Mozambique",2008,120259
+"930","Myanmar",2008,447073
+"931","Namibia",2008,1092
+"932","Nepal",2008,3888
+"933","Nicaragua",2008,762
+"934","Niger",2008,496858
+"935","Nigeria",2008,143079
+"936","Oman",2008,8
+"937","Pakistan",2008,104454
+"938","Panama",2008,744
+"939","Papua New Guinea",2008,84452
+"940","Paraguay",2008,348
+"941","Peru",2008,44522
+"942","Philippines",2008,23655
+"943","Republic of Korea",2008,1052
+"944","Rwanda",2008,316242
+"945","Sao Tome and Principe",2008,6258
+"946","Saudi Arabia",2008,61
+"947","Senegal",2008,241926
+"948","Sierra Leone",2008,154459
+"949","Solomon Islands",2008,40535
+"950","Somalia",2008,36905
+"951","South Africa",2008,7796
+"952","South Sudan",2008,52011
+"953","Sri Lanka",2008,649
+"954","Sudan",2008,569296
+"955","Suriname",2008,2709
+"956","Syrian Arab Republic",2008,0
+"957","Tajikistan",2008,318
+"958","Thailand",2008,28569
+"959","Timor-Leste",2008,51260
+"960","Togo",2008,344862
+"961","Turkey",2008,166
+"962","Turkmenistan",2008,0
+"963","Uganda",2008,979298
+"964","United Arab Emirates",2008,NA
+"965","United Republic of Tanzania",2008,4508
+"966","Uzbekistan",2008,7
+"967","Vanuatu",2008,3765
+"968","Venezuela (Bolivarian Republic of)",2008,32037
+"969","Viet Nam",2008,11355
+"970","Yemen",2008,44206
+"971","Zambia",2008,NA
+"972","Zimbabwe",2008,32788
+"973","Afghanistan",2009,64880
+"974","Algeria",2009,0
+"975","Angola",2009,1573422
+"976","Argentina",2009,86
+"977","Armenia",2009,0
+"978","Azerbaijan",2009,78
+"979","Bangladesh",2009,63873
+"980","Belize",2009,256
+"981","Benin",2009,889597
+"982","Bhutan",2009,972
+"983","Bolivia (Plurinational State of)",2009,9743
+"984","Botswana",2009,1024
+"985","Brazil",2009,309316
+"986","Burkina Faso",2009,182527
+"987","Burundi",2009,1185622
+"988","Cabo Verde",2009,65
+"989","Cambodia",2009,64595
+"990","Cameroon",2009,NA
+"991","Central African Republic",2009,NA
+"992","Chad",2009,NA
+"993","China",2009,9287
+"994","Colombia",2009,79347
+"995","Comoros",2009,5982
+"996","Congo",2009,92855
+"997","Costa Rica",2009,262
+"998","Côte d'Ivoire",2009,7388
+"999","Democratic People's Republic of Korea",2009,14632
+"1000","Democratic Republic of the Congo",2009,1878705
+"1001","Djibouti",2009,2686
+"1002","Dominican Republic",2009,1643
+"1003","Ecuador",2009,4120
+"1004","Egypt",2009,0
+"1005","El Salvador",2009,20
+"1006","Equatorial Guinea",2009,14184
+"1007","Eritrea",2009,11759
+"1008","Eswatini",2009,106
+"1009","Ethiopia",2009,1036316
+"1010","Gabon",2009,660
+"1011","Gambia",2009,50378
+"1012","Georgia",2009,1
+"1013","Ghana",2009,1104370
+"1014","Guatemala",2009,7080
+"1015","Guinea",2009,35841
+"1016","Guinea-Bissau",2009,11757
+"1017","Guyana",2009,13673
+"1018","Haiti",2009,49535
+"1019","Honduras",2009,9313
+"1020","India",2009,1563574
+"1021","Indonesia",2009,272491
+"1022","Iran (Islamic Republic of)",2009,4345
+"1023","Iraq",2009,0
+"1024","Kazakhstan",2009,NA
+"1025","Kenya",2009,NA
+"1026","Kyrgyzstan",2009,4
+"1027","Lao People's Democratic Republic",2009,14674
+"1028","Liberia",2009,839581
+"1029","Madagascar",2009,215110
+"1030","Malawi",2009,NA
+"1031","Malaysia",2009,5955
+"1032","Mali",2009,NA
+"1033","Mauritania",2009,940
+"1034","Mauritius",2009,NA
+"1035","Mexico",2009,2703
+"1036","Morocco",2009,0
+"1037","Mozambique",2009,93874
+"1038","Myanmar",2009,436068
+"1039","Namibia",2009,505
+"1040","Nepal",2009,3335
+"1041","Nicaragua",2009,610
+"1042","Niger",2009,309675
+"1043","Nigeria",2009,479845
+"1044","Oman",2009,0
+"1045","Pakistan",2009,167579
+"1046","Panama",2009,778
+"1047","Papua New Guinea",2009,77758
+"1048","Paraguay",2009,91
+"1049","Peru",2009,42645
+"1050","Philippines",2009,19316
+"1051","Republic of Korea",2009,898
+"1052","Rwanda",2009,698745
+"1053","Sao Tome and Principe",2009,6182
+"1054","Saudi Arabia",2009,58
+"1055","Senegal",2009,165933
+"1056","Sierra Leone",2009,646808
+"1057","Solomon Islands",2009,33002
+"1058","Somalia",2009,25202
+"1059","South Africa",2009,6072
+"1060","South Sudan",2009,NA
+"1061","Sri Lanka",2009,531
+"1062","Sudan",2009,711462
+"1063","Suriname",2009,2380
+"1064","Syrian Arab Republic",2009,0
+"1065","Tajikistan",2009,164
+"1066","Thailand",2009,29462
+"1067","Timor-Leste",2009,47527
+"1068","Togo",2009,391338
+"1069","Turkey",2009,38
+"1070","Turkmenistan",2009,0
+"1071","Uganda",2009,1301337
+"1072","United Arab Emirates",2009,NA
+"1073","United Republic of Tanzania",2009,211
+"1074","Uzbekistan",2009,0
+"1075","Vanuatu",2009,4189
+"1076","Venezuela (Bolivarian Republic of)",2009,35828
+"1077","Viet Nam",2009,16130
+"1078","Yemen",2009,55446
+"1079","Zambia",2009,NA
+"1080","Zimbabwe",2009,114028
+"1081","Afghanistan",2010,69397
+"1082","Algeria",2010,1
+"1083","Angola",2010,1682870
+"1084","Argentina",2010,14
+"1085","Armenia",2010,0
+"1086","Azerbaijan",2010,50
+"1087","Bangladesh",2010,55873
+"1088","Belize",2010,150
+"1089","Benin",2010,NA
+"1090","Bhutan",2010,436
+"1091","Bolivia (Plurinational State of)",2010,13769
+"1092","Botswana",2010,1046
+"1093","Brazil",2010,334483
+"1094","Burkina Faso",2010,804539
+"1095","Burundi",2010,1763447
+"1096","Cabo Verde",2010,47
+"1097","Cambodia",2010,49356
+"1098","Cameroon",2010,NA
+"1099","Central African Republic",2010,NA
+"1100","Chad",2010,200448
+"1101","China",2010,4990
+"1102","Colombia",2010,117589
+"1103","Comoros",2010,36538
+"1104","Congo",2010,NA
+"1105","Costa Rica",2010,110
+"1106","Côte d'Ivoire",2010,62726
+"1107","Democratic People's Republic of Korea",2010,13520
+"1108","Democratic Republic of the Congo",2010,2417780
+"1109","Djibouti",2010,1010
+"1110","Dominican Republic",2010,3414
+"1111","Ecuador",2010,1888
+"1112","Egypt",2010,0
+"1113","El Salvador",2010,19
+"1114","Equatorial Guinea",2010,53813
+"1115","Eritrea",2010,35982
+"1116","Eswatini",2010,268
+"1117","Ethiopia",2010,1158197
+"1118","Gabon",2010,13936
+"1119","Gambia",2010,116353
+"1120","Georgia",2010,0
+"1121","Ghana",2010,1071637
+"1122","Guatemala",2010,7384
+"1123","Guinea",2010,20936
+"1124","Guinea-Bissau",2010,50391
+"1125","Guyana",2010,22935
+"1126","Haiti",2010,84153
+"1127","Honduras",2010,9744
+"1128","India",2010,1599986
+"1129","Indonesia",2010,465764
+"1130","Iran (Islamic Republic of)",2010,1847
+"1131","Iraq",2010,0
+"1132","Kazakhstan",2010,NA
+"1133","Kenya",2010,898531
+"1134","Kyrgyzstan",2010,3
+"1135","Lao People's Democratic Republic",2010,20800
+"1136","Liberia",2010,922173
+"1137","Madagascar",2010,202450
+"1138","Malawi",2010,NA
+"1139","Malaysia",2010,5194
+"1140","Mali",2010,227482
+"1141","Mauritania",2010,6367
+"1142","Mauritius",2010,NA
+"1143","Mexico",2010,1226
+"1144","Morocco",2010,3
+"1145","Mozambique",2010,1522577
+"1146","Myanmar",2010,420808
+"1147","Namibia",2010,556
+"1148","Nepal",2010,3894
+"1149","Nicaragua",2010,692
+"1150","Niger",2010,620058
+"1151","Nigeria",2010,551187
+"1152","Oman",2010,7
+"1153","Pakistan",2010,240591
+"1154","Panama",2010,418
+"1155","Papua New Guinea",2010,93956
+"1156","Paraguay",2010,18
+"1157","Peru",2010,31546
+"1158","Philippines",2010,18560
+"1159","Republic of Korea",2010,1267
+"1160","Rwanda",2010,638669
+"1161","Sao Tome and Principe",2010,2740
+"1162","Saudi Arabia",2010,29
+"1163","Senegal",2010,330331
+"1164","Sierra Leone",2010,934028
+"1165","Solomon Islands",2010,39704
+"1166","Somalia",2010,24553
+"1167","South Africa",2010,8060
+"1168","South Sudan",2010,900283
+"1169","Sri Lanka",2010,684
+"1170","Sudan",2010,720557
+"1171","Suriname",2010,1712
+"1172","Syrian Arab Republic",2010,0
+"1173","Tajikistan",2010,111
+"1174","Thailand",2010,32480
+"1175","Timor-Leste",2010,48137
+"1176","Togo",2010,617101
+"1177","Turkey",2010,0
+"1178","Turkmenistan",2010,0
+"1179","Uganda",2010,1581160
+"1180","United Arab Emirates",2010,NA
+"1181","United Republic of Tanzania",2010,1278998
+"1182","Uzbekistan",2010,3
+"1183","Vanuatu",2010,8169
+"1184","Venezuela (Bolivarian Republic of)",2010,45155
+"1185","Viet Nam",2010,17515
+"1186","Yemen",2010,106697
+"1187","Zambia",2010,NA
+"1188","Zimbabwe",2010,249379
+"1189","Afghanistan",2011,77549
+"1190","Algeria",2011,1
+"1191","Angola",2011,1632282
+"1192","Argentina",2011,0
+"1193","Armenia",2011,0
+"1194","Azerbaijan",2011,4
+"1195","Bangladesh",2011,51773
+"1196","Belize",2011,72
+"1197","Benin",2011,422968
+"1198","Bhutan",2011,194
+"1199","Bolivia (Plurinational State of)",2011,7143
+"1200","Botswana",2011,432
+"1201","Brazil",2011,267146
+"1202","Burkina Faso",2011,428113
+"1203","Burundi",2011,1571874
+"1204","Cabo Verde",2011,7
+"1205","Cambodia",2011,57423
+"1206","Cameroon",2011,15212
+"1207","Central African Republic",2011,NA
+"1208","Chad",2011,181126
+"1209","China",2011,3367
+"1210","Colombia",2011,60105
+"1211","Comoros",2011,24856
+"1212","Congo",2011,37744
+"1213","Costa Rica",2011,10
+"1214","Côte d'Ivoire",2011,29976
+"1215","Democratic People's Republic of Korea",2011,16760
+"1216","Democratic Republic of the Congo",2011,4561981
+"1217","Djibouti",2011,NA
+"1218","Dominican Republic",2011,1616
+"1219","Ecuador",2011,1219
+"1220","Egypt",2011,0
+"1221","El Salvador",2011,9
+"1222","Equatorial Guinea",2011,22466
+"1223","Eritrea",2011,34848
+"1224","Eswatini",2011,549
+"1225","Ethiopia",2011,1480306
+"1226","Gabon",2011,NA
+"1227","Gambia",2011,261967
+"1228","Georgia",2011,0
+"1229","Ghana",2011,1041260
+"1230","Guatemala",2011,6817
+"1231","Guinea",2011,95574
+"1232","Guinea-Bissau",2011,71982
+"1233","Guyana",2011,29506
+"1234","Haiti",2011,34350
+"1235","Honduras",2011,7510
+"1236","India",2011,1310656
+"1237","Indonesia",2011,422447
+"1238","Iran (Islamic Republic of)",2011,1632
+"1239","Iraq",2011,0
+"1240","Kazakhstan",2011,NA
+"1241","Kenya",2011,1002805
+"1242","Kyrgyzstan",2011,0
+"1243","Lao People's Democratic Republic",2011,17532
+"1244","Liberia",2011,1915762
+"1245","Madagascar",2011,224498
+"1246","Malawi",2011,304499
+"1247","Malaysia",2011,3954
+"1248","Mali",2011,307035
+"1249","Mauritania",2011,5991
+"1250","Mauritius",2011,NA
+"1251","Mexico",2011,1124
+"1252","Morocco",2011,0
+"1253","Mozambique",2011,1756874
+"1254","Myanmar",2011,465294
+"1255","Namibia",2011,1860
+"1256","Nepal",2011,3414
+"1257","Nicaragua",2011,925
+"1258","Niger",2011,780876
+"1259","Nigeria",2011,NA
+"1260","Oman",2011,0
+"1261","Pakistan",2011,334589
+"1262","Panama",2011,354
+"1263","Papua New Guinea",2011,84060
+"1264","Paraguay",2011,1
+"1265","Peru",2011,25039
+"1266","Philippines",2011,9552
+"1267","Republic of Korea",2011,505
+"1268","Rwanda",2011,208858
+"1269","Sao Tome and Principe",2011,8442
+"1270","Saudi Arabia",2011,69
+"1271","Senegal",2011,274119
+"1272","Sierra Leone",2011,638859
+"1273","Solomon Islands",2011,26657
+"1274","Somalia",2011,3351
+"1275","South Africa",2011,9866
+"1276","South Sudan",2011,112024
+"1277","Sri Lanka",2011,124
+"1278","Sudan",2011,506806
+"1279","Suriname",2011,771
+"1280","Syrian Arab Republic",2011,0
+"1281","Tajikistan",2011,65
+"1282","Thailand",2011,24897
+"1283","Timor-Leste",2011,19739
+"1284","Togo",2011,519450
+"1285","Turkey",2011,0
+"1286","Turkmenistan",2011,NA
+"1287","Uganda",2011,231873
+"1288","United Arab Emirates",2011,NA
+"1289","United Republic of Tanzania",2011,2150761
+"1290","Uzbekistan",2011,0
+"1291","Vanuatu",2011,4820
+"1292","Venezuela (Bolivarian Republic of)",2011,45824
+"1293","Viet Nam",2011,16612
+"1294","Yemen",2011,90410
+"1295","Zambia",2011,NA
+"1296","Zimbabwe",2011,319935
+"1297","Afghanistan",2012,54840
+"1298","Algeria",2012,55
+"1299","Angola",2012,1496834
+"1300","Argentina",2012,0
+"1301","Armenia",2012,0
+"1302","Azerbaijan",2012,3
+"1303","Bangladesh",2012,9901
+"1304","Belize",2012,33
+"1305","Benin",2012,705839
+"1306","Bhutan",2012,NA
+"1307","Bolivia (Plurinational State of)",2012,7415
+"1308","Botswana",2012,193
+"1309","Brazil",2012,242758
+"1310","Burkina Faso",2012,3858046
+"1311","Burundi",2012,2151076
+"1312","Cabo Verde",2012,1
+"1313","Cambodia",2012,40476
+"1314","Cameroon",2012,NA
+"1315","Central African Republic",2012,46759
+"1316","Chad",2012,7710
+"1317","China",2012,244
+"1318","Colombia",2012,60179
+"1319","Comoros",2012,49840
+"1320","Congo",2012,120319
+"1321","Costa Rica",2012,6
+"1322","Côte d'Ivoire",2012,1140627
+"1323","Democratic People's Republic of Korea",2012,21850
+"1324","Democratic Republic of the Congo",2012,4791598
+"1325","Djibouti",2012,25
+"1326","Dominican Republic",2012,952
+"1327","Ecuador",2012,544
+"1328","Egypt",2012,0
+"1329","El Salvador",2012,13
+"1330","Equatorial Guinea",2012,15169
+"1331","Eritrea",2012,21815
+"1332","Eswatini",2012,562
+"1333","Ethiopia",2012,1692578
+"1334","Gabon",2012,19753
+"1335","Gambia",2012,300363
+"1336","Georgia",2012,0
+"1337","Ghana",2012,3755166
+"1338","Guatemala",2012,5346
+"1339","Guinea",2012,317200
+"1340","Guinea-Bissau",2012,50381
+"1341","Guyana",2012,31656
+"1342","Haiti",2012,25423
+"1343","Honduras",2012,6437
+"1344","India",2012,1067824
+"1345","Indonesia",2012,417819
+"1346","Iran (Islamic Republic of)",2012,756
+"1347","Iraq",2012,0
+"1348","Kazakhstan",2012,NA
+"1349","Kenya",2012,1453471
+"1350","Kyrgyzstan",2012,0
+"1351","Lao People's Democratic Republic",2012,46202
+"1352","Liberia",2012,1407455
+"1353","Madagascar",2012,359420
+"1354","Malawi",2012,1564984
+"1355","Malaysia",2012,3662
+"1356","Mali",2012,886482
+"1357","Mauritania",2012,9037
+"1358","Mauritius",2012,NA
+"1359","Mexico",2012,833
+"1360","Morocco",2012,0
+"1361","Mozambique",2012,1813984
+"1362","Myanmar",2012,480586
+"1363","Namibia",2012,194
+"1364","Nepal",2012,2092
+"1365","Nicaragua",2012,1235
+"1366","Niger",2012,2239858
+"1367","Nigeria",2012,NA
+"1368","Oman",2012,0
+"1369","Pakistan",2012,290781
+"1370","Panama",2012,844
+"1371","Papua New Guinea",2012,150195
+"1372","Paraguay",2012,0
+"1373","Peru",2012,31436
+"1374","Philippines",2012,7133
+"1375","Republic of Korea",2012,394
+"1376","Rwanda",2012,483470
+"1377","Sao Tome and Principe",2012,12550
+"1378","Saudi Arabia",2012,82
+"1379","Senegal",2012,280241
+"1380","Sierra Leone",2012,1537322
+"1381","Solomon Islands",2012,24383
+"1382","Somalia",2012,35712
+"1383","South Africa",2012,5629
+"1384","South Sudan",2012,225371
+"1385","Sri Lanka",2012,23
+"1386","Sudan",2012,526931
+"1387","Suriname",2012,356
+"1388","Syrian Arab Republic",2012,0
+"1389","Tajikistan",2012,18
+"1390","Thailand",2012,32569
+"1391","Timor-Leste",2012,5211
+"1392","Togo",2012,697374
+"1393","Turkey",2012,0
+"1394","Turkmenistan",2012,NA
+"1395","Uganda",2012,2662258
+"1396","United Arab Emirates",2012,NA
+"1397","United Republic of Tanzania",2012,1986955
+"1398","Uzbekistan",2012,0
+"1399","Vanuatu",2012,3435
+"1400","Venezuela (Bolivarian Republic of)",2012,52803
+"1401","Viet Nam",2012,19638
+"1402","Yemen",2012,109908
+"1403","Zambia",2012,NA
+"1404","Zimbabwe",2012,276963
+"1405","Afghanistan",2013,39263
+"1406","Algeria",2013,8
+"1407","Angola",2013,1999868
+"1408","Argentina",2013,0
+"1409","Armenia",2013,0
+"1410","Azerbaijan",2013,0
+"1411","Bangladesh",2013,3864
+"1412","Belize",2013,20
+"1413","Benin",2013,1078834
+"1414","Bhutan",2013,15
+"1415","Bolivia (Plurinational State of)",2013,7301
+"1416","Botswana",2013,456
+"1417","Brazil",2013,168862
+"1418","Burkina Faso",2013,3769051
+"1419","Burundi",2013,4141387
+"1420","Cabo Verde",2013,22
+"1421","Cambodia",2013,21309
+"1422","Cameroon",2013,26651
+"1423","Central African Republic",2013,116300
+"1424","Chad",2013,754565
+"1425","China",2013,86
+"1426","Colombia",2013,51696
+"1427","Comoros",2013,53156
+"1428","Congo",2013,43232
+"1429","Costa Rica",2013,0
+"1430","Côte d'Ivoire",2013,2506953
+"1431","Democratic People's Republic of Korea",2013,14407
+"1432","Democratic Republic of the Congo",2013,6715223
+"1433","Djibouti",2013,1684
+"1434","Dominican Republic",2013,579
+"1435","Ecuador",2013,368
+"1436","Egypt",2013,0
+"1437","El Salvador",2013,6
+"1438","Equatorial Guinea",2013,13129
+"1439","Eritrea",2013,21317
+"1440","Eswatini",2013,962
+"1441","Ethiopia",2013,2645454
+"1442","Gabon",2013,28982
+"1443","Gambia",2013,240792
+"1444","Georgia",2013,0
+"1445","Ghana",2013,1639451
+"1446","Guatemala",2013,6214
+"1447","Guinea",2013,211257
+"1448","Guinea-Bissau",2013,54584
+"1449","Guyana",2013,31479
+"1450","Haiti",2013,20957
+"1451","Honduras",2013,5428
+"1452","India",2013,881730
+"1453","Indonesia",2013,343527
+"1454","Iran (Islamic Republic of)",2013,479
+"1455","Iraq",2013,0
+"1456","Kazakhstan",2013,NA
+"1457","Kenya",2013,2335286
+"1458","Kyrgyzstan",2013,0
+"1459","Lao People's Democratic Republic",2013,38131
+"1460","Liberia",2013,1244220
+"1461","Madagascar",2013,385598
+"1462","Malawi",2013,1280892
+"1463","Malaysia",2013,2921
+"1464","Mali",2013,1367218
+"1465","Mauritania",2013,13085
+"1466","Mauritius",2013,NA
+"1467","Mexico",2013,495
+"1468","Morocco",2013,0
+"1469","Mozambique",2013,2998874
+"1470","Myanmar",2013,333871
+"1471","Namibia",2013,4911
+"1472","Nepal",2013,1974
+"1473","Nicaragua",2013,1162
+"1474","Niger",2013,2353422
+"1475","Nigeria",2013,NA
+"1476","Oman",2013,0
+"1477","Pakistan",2013,281755
+"1478","Panama",2013,705
+"1479","Papua New Guinea",2013,279994
+"1480","Paraguay",2013,0
+"1481","Peru",2013,48719
+"1482","Philippines",2013,6514
+"1483","Republic of Korea",2013,383
+"1484","Rwanda",2013,962618
+"1485","Sao Tome and Principe",2013,9243
+"1486","Saudi Arabia",2013,34
+"1487","Senegal",2013,366687
+"1488","Sierra Leone",2013,1701958
+"1489","Solomon Islands",2013,25609
+"1490","Somalia",2013,8944
+"1491","South Africa",2013,8645
+"1492","South Sudan",2013,262520
+"1493","Sri Lanka",2013,0
+"1494","Sudan",2013,592383
+"1495","Suriname",2013,729
+"1496","Syrian Arab Republic",2013,0
+"1497","Tajikistan",2013,3
+"1498","Thailand",2013,33302
+"1499","Timor-Leste",2013,1025
+"1500","Togo",2013,882430
+"1501","Turkey",2013,0
+"1502","Turkmenistan",2013,NA
+"1503","Uganda",2013,1502362
+"1504","United Arab Emirates",2013,0
+"1505","United Republic of Tanzania",2013,1551923
+"1506","Uzbekistan",2013,0
+"1507","Vanuatu",2013,2381
+"1508","Venezuela (Bolivarian Republic of)",2013,78643
+"1509","Viet Nam",2013,17128
+"1510","Yemen",2013,102778
+"1511","Zambia",2013,NA
+"1512","Zimbabwe",2013,422633
+"1513","Afghanistan",2014,61362
+"1514","Algeria",2014,0
+"1515","Angola",2014,2298979
+"1516","Argentina",2014,0
+"1517","Armenia",2014,0
+"1518","Azerbaijan",2014,0
+"1519","Bangladesh",2014,10216
+"1520","Belize",2014,19
+"1521","Benin",2014,1044235
+"1522","Bhutan",2014,19
+"1523","Bolivia (Plurinational State of)",2014,7401
+"1524","Botswana",2014,1346
+"1525","Brazil",2014,139272
+"1526","Burkina Faso",2014,5428655
+"1527","Burundi",2014,4585273
+"1528","Cabo Verde",2014,26
+"1529","Cambodia",2014,25152
+"1530","Cameroon",2014,NA
+"1531","Central African Republic",2014,295088
+"1532","Chad",2014,914032
+"1533","China",2014,56
+"1534","Colombia",2014,40768
+"1535","Comoros",2014,2203
+"1536","Congo",2014,66323
+"1537","Costa Rica",2014,0
+"1538","Côte d'Ivoire",2014,3712831
+"1539","Democratic People's Republic of Korea",2014,10535
+"1540","Democratic Republic of the Congo",2014,9968983
+"1541","Djibouti",2014,9439
+"1542","Dominican Republic",2014,459
+"1543","Ecuador",2014,242
+"1544","Egypt",2014,22
+"1545","El Salvador",2014,6
+"1546","Equatorial Guinea",2014,20417
+"1547","Eritrea",2014,30768
+"1548","Eswatini",2014,711
+"1549","Ethiopia",2014,2118815
+"1550","Gabon",2014,31900
+"1551","Gambia",2014,166229
+"1552","Georgia",2014,0
+"1553","Ghana",2014,3415912
+"1554","Guatemala",2014,5685
+"1555","Guinea",2014,660207
+"1556","Guinea-Bissau",2014,93431
+"1557","Guyana",2014,12354
+"1558","Haiti",2014,17696
+"1559","Honduras",2014,3378
+"1560","India",2014,1102205
+"1561","Indonesia",2014,252027
+"1562","Iran (Islamic Republic of)",2014,358
+"1563","Iraq",2014,0
+"1564","Kazakhstan",2014,NA
+"1565","Kenya",2014,2808931
+"1566","Kyrgyzstan",2014,0
+"1567","Lao People's Democratic Republic",2014,48071
+"1568","Liberia",2014,864204
+"1569","Madagascar",2014,377963
+"1570","Malawi",2014,2905310
+"1571","Malaysia",2014,3147
+"1572","Mali",2014,2039853
+"1573","Mauritania",2014,15835
+"1574","Mauritius",2014,NA
+"1575","Mexico",2014,656
+"1576","Morocco",2014,0
+"1577","Mozambique",2014,7117648
+"1578","Myanmar",2014,205658
+"1579","Namibia",2014,15914
+"1580","Nepal",2014,832
+"1581","Nicaragua",2014,1142
+"1582","Niger",2014,1953309
+"1583","Nigeria",2014,7826954
+"1584","Oman",2014,0
+"1585","Pakistan",2014,275149
+"1586","Panama",2014,864
+"1587","Papua New Guinea",2014,281182
+"1588","Paraguay",2014,0
+"1589","Peru",2014,65252
+"1590","Philippines",2014,4903
+"1591","Republic of Korea",2014,557
+"1592","Rwanda",2014,1610812
+"1593","Sao Tome and Principe",2014,1754
+"1594","Saudi Arabia",2014,30
+"1595","Senegal",2014,268912
+"1596","Sierra Leone",2014,1374476
+"1597","Solomon Islands",2014,18404
+"1598","Somalia",2014,11001
+"1599","South Africa",2014,11705
+"1600","South Sudan",2014,71377
+"1601","Sri Lanka",2014,0
+"1602","Sudan",2014,1068506
+"1603","Suriname",2014,401
+"1604","Syrian Arab Republic",2014,0
+"1605","Tajikistan",2014,2
+"1606","Thailand",2014,37921
+"1607","Timor-Leste",2014,342
+"1608","Togo",2014,1130251
+"1609","Turkey",2014,0
+"1610","Turkmenistan",2014,0
+"1611","Uganda",2014,3631939
+"1612","United Arab Emirates",2014,0
+"1613","United Republic of Tanzania",2014,680442
+"1614","Uzbekistan",2014,0
+"1615","Vanuatu",2014,982
+"1616","Venezuela (Bolivarian Republic of)",2014,90708
+"1617","Viet Nam",2014,15752
+"1618","Yemen",2014,86707
+"1619","Zambia",2014,4077547
+"1620","Zimbabwe",2014,535931
+"1621","Afghanistan",2015,86895
+"1622","Algeria",2015,0
+"1623","Angola",2015,2769305
+"1624","Argentina",2015,0
+"1625","Armenia",2015,0
+"1626","Azerbaijan",2015,0
+"1627","Bangladesh",2015,6608
+"1628","Belize",2015,9
+"1629","Benin",2015,1268347
+"1630","Bhutan",2015,34
+"1631","Bolivia (Plurinational State of)",2015,6874
+"1632","Botswana",2015,326
+"1633","Brazil",2015,138229
+"1634","Burkina Faso",2015,7015446
+"1635","Burundi",2015,5159706
+"1636","Cabo Verde",2015,7
+"1637","Cambodia",2015,33930
+"1638","Cameroon",2015,1162784
+"1639","Central African Republic",2015,598833
+"1640","Chad",2015,787046
+"1641","China",2015,39
+"1642","Colombia",2015,47616
+"1643","Comoros",2015,1300
+"1644","Congo",2015,51529
+"1645","Costa Rica",2015,0
+"1646","Côte d'Ivoire",2015,3375904
+"1647","Democratic People's Republic of Korea",2015,773
+"1648","Democratic Republic of the Congo",2015,11627473
+"1649","Djibouti",2015,9473
+"1650","Dominican Republic",2015,631
+"1651","Ecuador",2015,618
+"1652","Egypt",2015,0
+"1653","El Salvador",2015,2
+"1654","Equatorial Guinea",2015,15142
+"1655","Eritrea",2015,19372
+"1656","Eswatini",2015,157
+"1657","Ethiopia",2015,1867059
+"1658","Gabon",2015,23867
+"1659","Gambia",2015,240382
+"1660","Georgia",2015,0
+"1661","Ghana",2015,4319919
+"1662","Guatemala",2015,6836
+"1663","Guinea",2015,810979
+"1664","Guinea-Bissau",2015,142309
+"1665","Guyana",2015,9984
+"1666","Haiti",2015,17583
+"1667","Honduras",2015,3575
+"1668","India",2015,1169261
+"1669","Indonesia",2015,217025
+"1670","Iran (Islamic Republic of)",2015,167
+"1671","Iraq",2015,0
+"1672","Kazakhstan",2015,0
+"1673","Kenya",2015,1499027
+"1674","Kyrgyzstan",2015,0
+"1675","Lao People's Democratic Republic",2015,36056
+"1676","Liberia",2015,931086
+"1677","Madagascar",2015,744103
+"1678","Malawi",2015,3661238
+"1679","Malaysia",2015,242
+"1680","Mali",2015,2295611
+"1681","Mauritania",2015,22631
+"1682","Mauritius",2015,NA
+"1683","Mexico",2015,517
+"1684","Morocco",2015,0
+"1685","Mozambique",2015,7718782
+"1686","Myanmar",2015,182768
+"1687","Namibia",2015,12168
+"1688","Nepal",2015,591
+"1689","Nicaragua",2015,2279
+"1690","Niger",2015,2272000
+"1691","Nigeria",2015,6850782
+"1692","Oman",2015,0
+"1693","Pakistan",2015,202013
+"1694","Panama",2015,546
+"1695","Papua New Guinea",2015,297787
+"1696","Paraguay",2015,0
+"1697","Peru",2015,61865
+"1698","Philippines",2015,8266
+"1699","Republic of Korea",2015,627
+"1700","Rwanda",2015,2505794
+"1701","Sao Tome and Principe",2015,2058
+"1702","Saudi Arabia",2015,83
+"1703","Senegal",2015,492253
+"1704","Sierra Leone",2015,1483376
+"1705","Solomon Islands",2015,23998
+"1706","Somalia",2015,20953
+"1707","South Africa",2015,555
+"1708","South Sudan",2015,0
+"1709","Sri Lanka",2015,0
+"1710","Sudan",2015,586827
+"1711","Suriname",2015,81
+"1712","Syrian Arab Republic",2015,0
+"1713","Tajikistan",2015,0
+"1714","Thailand",2015,8022
+"1715","Timor-Leste",2015,80
+"1716","Togo",2015,1113927
+"1717","Turkey",2015,0
+"1718","Turkmenistan",2015,0
+"1719","Uganda",2015,7137662
+"1720","United Arab Emirates",2015,0
+"1721","United Republic of Tanzania",2015,4241364
+"1722","Uzbekistan",2015,0
+"1723","Vanuatu",2015,423
+"1724","Venezuela (Bolivarian Republic of)",2015,136402
+"1725","Viet Nam",2015,9331
+"1726","Yemen",2015,76259
+"1727","Zambia",2015,4184661
+"1728","Zimbabwe",2015,391651
+"1729","Afghanistan",2016,139087
+"1730","Algeria",2016,0
+"1731","Angola",2016,3794253
+"1732","Argentina",2016,0
+"1733","Armenia",2016,0
+"1734","Azerbaijan",2016,0
+"1735","Bangladesh",2016,4787
+"1736","Belize",2016,4
+"1737","Benin",2016,1324576
+"1738","Bhutan",2016,15
+"1739","Bolivia (Plurinational State of)",2016,5542
+"1740","Botswana",2016,716
+"1741","Brazil",2016,124178
+"1742","Burkina Faso",2016,9779154
+"1743","Burundi",2016,8274062
+"1744","Cabo Verde",2016,48
+"1745","Cambodia",2016,23492
+"1746","Cameroon",2016,1675264
+"1747","Central African Republic",2016,1032764
+"1748","Chad",2016,1294768
+"1749","China",2016,3
+"1750","Colombia",2016,82609
+"1751","Comoros",2016,1066
+"1752","Congo",2016,171847
+"1753","Costa Rica",2016,4
+"1754","Côte d'Ivoire",2016,3471024
+"1755","Democratic People's Republic of Korea",2016,2719
+"1756","Democratic Republic of the Congo",2016,15330841
+"1757","Djibouti",2016,13804
+"1758","Dominican Republic",2016,690
+"1759","Ecuador",2016,1191
+"1760","Egypt",2016,0
+"1761","El Salvador",2016,12
+"1762","Equatorial Guinea",2016,147714
+"1763","Eritrea",2016,24251
+"1764","Eswatini",2016,350
+"1765","Ethiopia",2016,1718504
+"1766","Gabon",2016,23915
+"1767","Gambia",2016,153774
+"1768","Georgia",2016,0
+"1769","Ghana",2016,4535167
+"1770","Guatemala",2016,4853
+"1771","Guinea",2016,992146
+"1772","Guinea-Bissau",2016,150903
+"1773","Guyana",2016,12367
+"1774","Haiti",2016,21430
+"1775","Honduras",2016,4094
+"1776","India",2016,1087285
+"1777","Indonesia",2016,218450
+"1778","Iran (Islamic Republic of)",2016,81
+"1779","Iraq",2016,0
+"1780","Kazakhstan",2016,0
+"1781","Kenya",2016,2783846
+"1782","Kyrgyzstan",2016,0
+"1783","Lao People's Democratic Republic",2016,11223
+"1784","Liberia",2016,1191137
+"1785","Madagascar",2016,475333
+"1786","Malawi",2016,4827373
+"1787","Malaysia",2016,266
+"1788","Mali",2016,2156282
+"1789","Mauritania",2016,23042
+"1790","Mauritius",2016,NA
+"1791","Mexico",2016,551
+"1792","Morocco",2016,0
+"1793","Mozambique",2016,8520376
+"1794","Myanmar",2016,110146
+"1795","Namibia",2016,25198
+"1796","Nepal",2016,507
+"1797","Nicaragua",2016,6272
+"1798","Niger",2016,4148167
+"1799","Nigeria",2016,9234387
+"1800","Oman",2016,0
+"1801","Pakistan",2016,318449
+"1802","Panama",2016,769
+"1803","Papua New Guinea",2016,478497
+"1804","Paraguay",2016,0
+"1805","Peru",2016,56623
+"1806","Philippines",2016,6680
+"1807","Republic of Korea",2016,602
+"1808","Rwanda",2016,3380568
+"1809","Sao Tome and Principe",2016,2238
+"1810","Saudi Arabia",2016,272
+"1811","Senegal",2016,349540
+"1812","Sierra Leone",2016,1775306
+"1813","Solomon Islands",2016,54431
+"1814","Somalia",2016,35628
+"1815","South Africa",2016,4323
+"1816","South Sudan",2016,0
+"1817","Sri Lanka",2016,0
+"1818","Sudan",2016,575015
+"1819","Suriname",2016,76
+"1820","Syrian Arab Republic",2016,0
+"1821","Tajikistan",2016,0
+"1822","Thailand",2016,11522
+"1823","Timor-Leste",2016,94
+"1824","Togo",2016,1183265
+"1825","Turkey",2016,0
+"1826","Turkmenistan",2016,0
+"1827","Uganda",2016,9385132
+"1828","United Arab Emirates",2016,0
+"1829","United Republic of Tanzania",2016,5193520
+"1830","Uzbekistan",2016,0
+"1831","Vanuatu",2016,1868
+"1832","Venezuela (Bolivarian Republic of)",2016,240613
+"1833","Viet Nam",2016,4161
+"1834","Yemen",2016,98701
+"1835","Zambia",2016,4851319
+"1836","Zimbabwe",2016,279988
+"1837","Afghanistan",2017,161778
+"1838","Algeria",2017,0
+"1839","Angola",2017,3874892
+"1840","Argentina",2017,0
+"1841","Armenia",2017,0
+"1842","Azerbaijan",2017,0
+"1843","Bangladesh",2017,4893
+"1844","Belize",2017,7
+"1845","Benin",2017,1573163
+"1846","Bhutan",2017,24
+"1847","Bolivia (Plurinational State of)",2017,4572
+"1848","Botswana",2017,1900
+"1849","Brazil",2017,189503
+"1850","Burkina Faso",2017,10225459
+"1851","Burundi",2017,7670177
+"1852","Cabo Verde",2017,423
+"1853","Cambodia",2017,36932
+"1854","Cameroon",2017,1191257
+"1855","Central African Republic",2017,383309
+"1856","Chad",2017,1962372
+"1857","China",2017,0
+"1858","Colombia",2017,52805
+"1859","Comoros",2017,2274
+"1860","Congo",2017,127939
+"1861","Costa Rica",2017,12
+"1862","Côte d'Ivoire",2017,3274683
+"1863","Democratic People's Republic of Korea",2017,4575
+"1864","Democratic Republic of the Congo",2017,15176927
+"1865","Djibouti",2017,14671
+"1866","Dominican Republic",2017,341
+"1867","Ecuador",2017,1275
+"1868","Egypt",2017,0
+"1869","El Salvador",2017,0
+"1870","Equatorial Guinea",2017,15725
+"1871","Eritrea",2017,31486
+"1872","Eswatini",2017,724
+"1873","Ethiopia",2017,1530739
+"1874","Gabon",2017,35244
+"1875","Gambia",2017,69931
+"1876","Georgia",2017,0
+"1877","Ghana",2017,4348694
+"1878","Guatemala",2017,3743
+"1879","Guinea",2017,1335323
+"1880","Guinea-Bissau",2017,89784
+"1881","Guyana",2017,13936
+"1882","Haiti",2017,19135
+"1883","Honduras",2017,1277
+"1884","India",2017,844558
+"1885","Indonesia",2017,261617
+"1886","Iran (Islamic Republic of)",2017,57
+"1887","Iraq",2017,0
+"1888","Kazakhstan",2017,0
+"1889","Kenya",2017,3215116
+"1890","Kyrgyzstan",2017,0
+"1891","Lao People's Democratic Republic",2017,9333
+"1892","Liberia",2017,NA
+"1893","Madagascar",2017,800661
+"1894","Malawi",2017,4901344
+"1895","Malaysia",2017,85
+"1896","Mali",2017,1918376
+"1897","Mauritania",2017,20105
+"1898","Mauritius",2017,0
+"1899","Mexico",2017,736
+"1900","Morocco",2017,0
+"1901","Mozambique",2017,8921081
+"1902","Myanmar",2017,19619
+"1903","Namibia",2017,54268
+"1904","Nepal",2017,623
+"1905","Nicaragua",2017,10949
+"1906","Niger",2017,2638580
+"1907","Nigeria",2017,11571958
+"1908","Oman",2017,0
+"1909","Pakistan",2017,350467
+"1910","Panama",2017,649
+"1911","Papua New Guinea",2017,478340
+"1912","Paraguay",2017,0
+"1913","Peru",2017,55367
+"1914","Philippines",2017,3950
+"1915","Republic of Korea",2017,436
+"1916","Rwanda",2017,1876123
+"1917","Sao Tome and Principe",2017,2239
+"1918","Saudi Arabia",2017,177
+"1919","Senegal",2017,395706
+"1920","Sierra Leone",2017,1651236
+"1921","Solomon Islands",2017,52463
+"1922","Somalia",2017,35138
+"1923","South Africa",2017,22061
+"1924","South Sudan",2017,1488005
+"1925","Sri Lanka",2017,0
+"1926","Sudan",2017,720879
+"1927","Suriname",2017,40
+"1928","Syrian Arab Republic",2017,0
+"1929","Tajikistan",2017,0
+"1930","Thailand",2017,11440
+"1931","Timor-Leste",2017,16
+"1932","Togo",2017,1209034
+"1933","Turkey",2017,0
+"1934","Turkmenistan",2017,0
+"1935","Uganda",2017,11667831
+"1936","United Arab Emirates",2017,0
+"1937","United Republic of Tanzania",2017,5354486
+"1938","Uzbekistan",2017,0
+"1939","Vanuatu",2017,1071
+"1940","Venezuela (Bolivarian Republic of)",2017,411586
+"1941","Viet Nam",2017,4548
+"1942","Yemen",2017,114004
+"1943","Zambia",2017,5505639
+"1944","Zimbabwe",2017,315624
