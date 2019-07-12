@@ -1,0 +1,98 @@
+# Week 1, day 2
+
+***This program is not for hw1. The link for hw1 is in README.md.*** <br> <br>
+Our project is aimed to analyze the relation between usage of English words and number of examples on several famous online dictionaries. In other words, we want to see how much example sentences we can find when we look up a English word. The wordlist will be prepared by 何國瑋, and the program for which can be found [here](some.link.com) (will be fixed after he upload the code). I wrote three similar programs to count the number of sentence examples on `www.dictionary.com`, `www.lexico.com` (by Oxford) and `https://dictionary.cambridge.org/`. As mentioned, a wordlist like this is needed as an input file:
+```{r}
+input = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/sampletext.csv", header = FALSE)
+input
+```
+The first column contains the word, while the second column contains the frequency of occurence. Now, here is the crawlers that look for the examples: <br>
+**dictionary.com**
+```{r}
+library(dplyr)
+library(rvest)
+
+#load input wordlist
+word = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/sampletext.csv", header = FALSE)
+word$exNum = 0
+for(i in 1:NROW(word))
+{
+  dictionaryPage = 
+    tryCatch(read_html(paste("https://www.dictionary.com/browse/", word[i, 1], sep = "")),
+             error = function(e){
+               word[i, 3] <<- -1
+             }
+    )
+  if(word[i, 3] != -1)
+  {
+    exampleUnderDefinitions = html_nodes(dictionaryPage, ".luna-example") 
+    exampleInExampleSection = html_nodes(dictionaryPage, ".e15kc6du7") 
+    exampleCount = NROW(exampleUnderDefinitions) + NROW(exampleInExampleSection)
+    word[i, 3] = exampleCount
+  }
+  print(paste(i,NROW(word), sep = "/"))
+}
+write.csv(word, file = "~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_sample.csv")
+```
+Results:
+```{r}
+read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_sample.csv")
+```
+**www.lexico.com**
+```{r}
+library(dplyr)
+library(rvest)
+
+#load input wordlist
+word = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/sampletext.csv", header = FALSE)
+word$exNum = 0
+for(i in 1:NROW(word))
+{
+  dictionaryPage = 
+    tryCatch(read_html(paste("https://www.lexico.com/en/definition/", word[i, 1], sep = "")),
+    error = function(e){
+      word[i, 3] <<- -1
+    }
+  )
+  if(word[i, 3] != -1)
+  {
+    exampleCount = NROW(html_nodes(dictionaryPage, "em")) 
+    word[i, 3] = exampleCount
+  }
+  print(paste(i,NROW(word), sep = "/"))
+}
+write.csv(word, file = "~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/oxford_output_sample.csv")
+```
+Results:
+```{r}
+read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/oxford_output_sample.csv")
+```
+**dictionary.cambridge.org**
+```{r}
+library(dplyr)
+library(rvest)
+
+#load input wordlist
+word = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/sampletext.csv", header = FALSE)
+word$exNum = 0
+for(i in 1:NROW(word))
+{
+  dictionaryPage = 
+    tryCatch(read_html(paste("https://dictionary.cambridge.org/dictionary/english/", word[i, 1], sep = "")),
+    error = function(e){
+      word[i, 3] <<- -1
+    }
+  )
+  if(word[i, 3] != -1)
+  {
+    exampleCount = NROW(html_nodes(dictionaryPage, ".eg")) 
+    word[i, 3] = exampleCount
+  }
+  print(paste(i,NROW(word), sep = "/"))
+}
+write.csv(word, file = "~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/cambridge_output_sample.csv")
+```
+Results:
+```{r}
+read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/cambridge_output_sample.csv")
+```
