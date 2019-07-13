@@ -15,7 +15,7 @@ School/Department: NTU Physics 2<br>
 - Start learning git
 - Install RStudio
 - Testing add/commit/push
-- Creating a new RMarkdown [file](https://fhcwcsy.github.io/data_science_programming/week_1/class_1.html)
+- Creating a new RMarkdown [file](https://fhcwcsy.github.io/data_science_programming/week_1/day1/class_1.html)
 
 **Day 2**
 - Installed several missing packages
