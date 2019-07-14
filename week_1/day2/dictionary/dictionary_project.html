@@ -379,15 +379,20 @@ $(document).ready(function () {
 
 <div id="week-1-day-2" class="section level1">
 <h1>Week 1, day 2</h1>
-<p><strong><em>This program is not for hw1. The link for hw1 is in README.md.</em></strong> <br> <br> Our project is aimed to analyze the relation between usage of English words and number of examples on several famous online dictionaries. In other words, we want to see how much example sentences we can find when we look up a English word. The wordlist will be prepared by 何國瑋, and the program for which can be found <a href="some.link.com">here</a> (will be fixed after he upload the code). I wrote three similar programs to count the number of sentence examples on <code>www.dictionary.com</code>, <code>www.lexico.com</code> (by Oxford) and <code>https://dictionary.cambridge.org/</code>. As mentioned, a wordlist like this is needed as an input file:</p>
+<p><strong><em>This program is not for hw1. The link for hw1 is in README.md.</em></strong> <br> <br> Our project is aimed to analyze the relation between usage of English words and number of examples on several famous online dictionaries. In other words, we want to see how much example sentences we can find when we look up a English word. The wordlist will be prepared by 何國瑋, and the program for which can be found <a href="https://b07901135.github.io/Data_Science_Programming/w1_thu/w1_thu_class.html">here</a>. I wrote three similar programs to count the number of sentence examples on <code>www.dictionary.com</code>, <code>www.lexico.com</code> (by Oxford) and <code>https://dictionary.cambridge.org/</code>. As mentioned, a wordlist like this is needed as an input file:</p>
 <pre class="r"><code>input = read.csv(&quot;~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/sampletext.csv&quot;, header = FALSE)
 input</code></pre>
-<pre><code>##      V1 V2
-## 1  test  5
-## 2  math  8
-## 3 steak 23
-## 4  bald 22
-## 5  girl 21</code></pre>
+<pre><code>##         V1  V2
+## 1     test   5
+## 2     math   8
+## 3    steak  23
+## 4     bald  22
+## 5     girl  21
+## 6   friend  33
+## 7      the 200
+## 8  avocado   2
+## 9    mouse   8
+## 10    book  50</code></pre>
 <p>The first column contains the word, while the second column contains the frequency of occurence. Now, here is the crawlers that look for the examples: <br> <strong>dictionary.com</strong></p>
 <pre class="r"><code>library(dplyr)</code></pre>
 <pre><code>## 
@@ -401,10 +406,12 @@ input</code></pre>
 <pre class="r"><code>library(rvest)</code></pre>
 <pre><code>## Loading required package: xml2</code></pre>
 <pre class="r"><code>#load input wordlist
-word = read.csv(&quot;~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/sampletext.csv&quot;, header = FALSE)
+word = read.csv(&quot;~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/sampletext.csv&quot;, header = TRUE)
 word$exNum = 0
+time = c(Sys.time(), Sys.time(), Sys.time(), Sys.time(), Sys.time(), Sys.time() )
 for(i in 1:NROW(word))
 {
+  t_i = Sys.time()
   dictionaryPage = 
     tryCatch(read_html(paste(&quot;https://www.dictionary.com/browse/&quot;, word[i, 1], sep = &quot;&quot;)),
              error = function(e){
@@ -418,29 +425,56 @@ for(i in 1:NROW(word))
     exampleCount = NROW(exampleUnderDefinitions) + NROW(exampleInExampleSection)
     word[i, 3] = exampleCount
   }
-  print(paste(i,NROW(word), sep = &quot;/&quot;))
+  if (i &lt; 7)
+  {
+    time[i] = Sys.time()
+  }
+  else
+  {
+    for(k in 1:5)
+    {
+      time[k] = time [k+1]
+    }
+    time[6] = Sys.time()
+  }
+  if( i &gt; 5 )
+  {
+    cat(i, &quot;/&quot;, NROW(word), &quot;    &quot;, as.character(word[i, 1]), &quot;  freq: &quot;, word[i, 2], &quot;    ex = &quot;, word[i, 3], &quot;   ETA:&quot;, (time[6] - time[1]) / 5 * ( NROW(word) - i ) , &quot;s \n&quot;)
+  }
+  else{
+    cat(i, &quot;/&quot;, NROW(word), &quot;    &quot;, as.character(word[i, 1]), &quot;  freq: &quot;, word[i, 2], &quot;    ex = &quot;, word[i, 3], &quot;\n&quot;)
+  }
 }</code></pre>
-<pre><code>## [1] &quot;1/5&quot;
-## [1] &quot;2/5&quot;
-## [1] &quot;3/5&quot;
-## [1] &quot;4/5&quot;
-## [1] &quot;5/5&quot;</code></pre>
+<pre><code>## 1 / 9      math   freq:  8     ex =  10 
+## 2 / 9      steak   freq:  23     ex =  10 
+## 3 / 9      bald   freq:  22     ex =  15 
+## 4 / 9      girl   freq:  21     ex =  13 
+## 5 / 9      friend   freq:  33     ex =  14 
+## 6 / 9      the   freq:  200     ex =  18    ETA: 4.316722 s 
+## 7 / 9      avocado   freq:  2     ex =  10    ETA: 2.994011 s 
+## 8 / 9      mouse   freq:  8     ex =  11    ETA: 1.892224 s 
+## 9 / 9      book   freq:  50     ex =  36    ETA: 0 s</code></pre>
 <pre class="r"><code>write.csv(word, file = &quot;~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_sample.csv&quot;)</code></pre>
 <p>Results:</p>
 <pre class="r"><code>read.csv(&quot;~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_sample.csv&quot;)</code></pre>
-<pre><code>##   X    V1 V2 exNum
-## 1 1  test  5    13
-## 2 2  math  8    10
-## 3 3 steak 23    10
-## 4 4  bald 22    15
-## 5 5  girl 21    13</code></pre>
+<pre><code>##   X    test  X5 exNum
+## 1 1    math   8    10
+## 2 2   steak  23    10
+## 3 3    bald  22    15
+## 4 4    girl  21    13
+## 5 5  friend  33    14
+## 6 6     the 200    18
+## 7 7 avocado   2    10
+## 8 8   mouse   8    11
+## 9 9    book  50    36</code></pre>
 <p><strong>www.lexico.com</strong></p>
 <pre class="r"><code>library(dplyr)
 library(rvest)
 
 #load input wordlist
-word = read.csv(&quot;~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/sampletext.csv&quot;, header = FALSE)
+word = read.csv(&quot;~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/sampletext.csv&quot;, header = TRUE)
 word$exNum = 0
+time = c(Sys.time(), Sys.time(), Sys.time(), Sys.time(), Sys.time(), Sys.time() )
 for(i in 1:NROW(word))
 {
   dictionaryPage = 
@@ -454,29 +488,56 @@ for(i in 1:NROW(word))
     exampleCount = NROW(html_nodes(dictionaryPage, &quot;em&quot;)) 
     word[i, 3] = exampleCount
   }
-  print(paste(i,NROW(word), sep = &quot;/&quot;))
+  if (i &lt; 7)
+  {
+    time[i] = Sys.time()
+  }
+  else
+  {
+    for(k in 1:5)
+    {
+      time[k] = time [k+1]
+    }
+    time[6] = Sys.time()
+  }
+  if( i &gt; 5 )
+  {
+    cat(i, &quot;/&quot;, NROW(word), &quot;    &quot;, as.character(word[i, 1]), &quot;  freq: &quot;, word[i, 2], &quot;    ex = &quot;, word[i, 3], &quot;   ETA:&quot;, (time[6] - time[1]) / 5 * ( NROW(word) - i ) , &quot;s \n&quot;)
+  }
+  else{
+    cat(i, &quot;/&quot;, NROW(word), &quot;    &quot;, as.character(word[i, 1]), &quot;  freq: &quot;, word[i, 2], &quot;    ex = &quot;, word[i, 3], &quot;\n&quot;)
+  }
 }</code></pre>
-<pre><code>## [1] &quot;1/5&quot;
-## [1] &quot;2/5&quot;
-## [1] &quot;3/5&quot;
-## [1] &quot;4/5&quot;
-## [1] &quot;5/5&quot;</code></pre>
+<pre><code>## 1 / 9      math   freq:  8     ex =  34 
+## 2 / 9      steak   freq:  23     ex =  67 
+## 3 / 9      bald   freq:  22     ex =  105 
+## 4 / 9      girl   freq:  21     ex =  71 
+## 5 / 9      friend   freq:  33     ex =  194 
+## 6 / 9      the   freq:  200     ex =  87    ETA: 7.420277 s 
+## 7 / 9      avocado   freq:  2     ex =  59    ETA: 4.837598 s 
+## 8 / 9      mouse   freq:  8     ex =  87    ETA: 2.535104 s 
+## 9 / 9      book   freq:  50     ex =  422    ETA: 0 s</code></pre>
 <pre class="r"><code>write.csv(word, file = &quot;~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/oxford_output_sample.csv&quot;)</code></pre>
 <p>Results:</p>
 <pre class="r"><code>read.csv(&quot;~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/oxford_output_sample.csv&quot;)</code></pre>
-<pre><code>##   X    V1 V2 exNum
-## 1 1  test  5   319
-## 2 2  math  8    34
-## 3 3 steak 23    67
-## 4 4  bald 22   105
-## 5 5  girl 21    71</code></pre>
+<pre><code>##   X    test  X5 exNum
+## 1 1    math   8    34
+## 2 2   steak  23    67
+## 3 3    bald  22   105
+## 4 4    girl  21    71
+## 5 5  friend  33   194
+## 6 6     the 200    87
+## 7 7 avocado   2    59
+## 8 8   mouse   8    87
+## 9 9    book  50   422</code></pre>
 <p><strong>dictionary.cambridge.org</strong></p>
 <pre class="r"><code>library(dplyr)
 library(rvest)
 
 #load input wordlist
-word = read.csv(&quot;~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/sampletext.csv&quot;, header = FALSE)
+word = read.csv(&quot;~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/sampletext.csv&quot;, header = TRUE)
 word$exNum = 0
+time = c(Sys.time(), Sys.time(), Sys.time(), Sys.time(), Sys.time(), Sys.time() )
 for(i in 1:NROW(word))
 {
   dictionaryPage = 
@@ -490,22 +551,48 @@ for(i in 1:NROW(word))
     exampleCount = NROW(html_nodes(dictionaryPage, &quot;.eg&quot;)) 
     word[i, 3] = exampleCount
   }
-  print(paste(i,NROW(word), sep = &quot;/&quot;))
+  if (i &lt; 7)
+  {
+    time[i] = Sys.time()
+  }
+  else
+  {
+    for(k in 1:5)
+    {
+      time[k] = time [k+1]
+    }
+    time[6] = Sys.time()
+  }
+  if( i &gt; 5 )
+  {
+    cat(i, &quot;/&quot;, NROW(word), &quot;    &quot;, as.character(word[i, 1]), &quot;  freq: &quot;, word[i, 2], &quot;    ex = &quot;, word[i, 3], &quot;   ETA:&quot;, (time[6] - time[1]) / 5 * ( NROW(word) - i ) , &quot;s \n&quot;)
+  }
+  else{
+    cat(i, &quot;/&quot;, NROW(word), &quot;    &quot;, as.character(word[i, 1]), &quot;  freq: &quot;, word[i, 2], &quot;    ex = &quot;, word[i, 3], &quot;\n&quot;)
+  }
 }</code></pre>
-<pre><code>## [1] &quot;1/5&quot;
-## [1] &quot;2/5&quot;
-## [1] &quot;3/5&quot;
-## [1] &quot;4/5&quot;
-## [1] &quot;5/5&quot;</code></pre>
+<pre><code>## 1 / 9      math   freq:  8     ex =  0 
+## 2 / 9      steak   freq:  23     ex =  18 
+## 3 / 9      bald   freq:  22     ex =  27 
+## 4 / 9      girl   freq:  21     ex =  32 
+## 5 / 9      friend   freq:  33     ex =  39 
+## 6 / 9      the   freq:  200     ex =  68    ETA: 8.514556 s 
+## 7 / 9      avocado   freq:  2     ex =  17    ETA: 5.043042 s 
+## 8 / 9      mouse   freq:  8     ex =  13    ETA: 1.519365 s 
+## 9 / 9      book   freq:  50     ex =  70    ETA: 0 s</code></pre>
 <pre class="r"><code>write.csv(word, file = &quot;~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/cambridge_output_sample.csv&quot;)</code></pre>
 <p>Results:</p>
 <pre class="r"><code>read.csv(&quot;~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/cambridge_output_sample.csv&quot;)</code></pre>
-<pre><code>##   X    V1 V2 exNum
-## 1 1  test  5    64
-## 2 2  math  8     0
-## 3 3 steak 23    18
-## 4 4  bald 22    27
-## 5 5  girl 21    32</code></pre>
+<pre><code>##   X    test  X5 exNum
+## 1 1    math   8     0
+## 2 2   steak  23    18
+## 3 3    bald  22    27
+## 4 4    girl  21    32
+## 5 5  friend  33    39
+## 6 6     the 200    68
+## 7 7 avocado   2    17
+## 8 8   mouse   8    13
+## 9 9    book  50    70</code></pre>
 </div>
 
 

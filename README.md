@@ -20,5 +20,7 @@ School/Department: NTU Physics 2<br>
 **Day 2**
 - Installed several missing packages
 - Done hw1 (not for the final project, just for the homework): [file](https://fhcwcsy.github.io/data_science_programming/week_1/day2/note.html)
+
+**At home**
 - Crawler for the project: [file](https://fhcwcsy.github.io/data_science_programming/week_1/day2/dictionary/dictionary_project.html)
 
