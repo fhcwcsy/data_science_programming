@@ -24,3 +24,7 @@ School/Department: NTU Physics 2<br>
 **At home**
 - Crawler for the project: [file](https://fhcwcsy.github.io/data_science_programming/week_1/day2/dictionary/dictionary_project.html)
 
+### Week 2
+
+**Day 2**
+- [Data visualization](https://fhcwcsy.github.io/data_science_programming/week_2/day1/data_visualization.html)

@@ -2,13 +2,56 @@
 Hao-Chien Wang
 <br>
 
+I use the words collected from three forums in `stackexchange` and look up those words in `dictionary.com` and count the number of example sentences using the crawler. First, I load the data and try to plot some simple graph:
 ```{r}
 library(dplyr)
-data = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_english_4000.csv", header = TRUE )
-data = filter(data, exNum >= 0, X < 4001)
+#English
+data_eng = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_english_4000.csv", header = TRUE )
+data_eng = filter(data_eng, exNum >= 0, X < 4001)
+data_eng$n_shift = ( (data_eng$n - mean(data_eng$n) ) / sd(data_eng$n) ) * 0.2 + 1
+data_eng$n = ( (data_eng$n - mean(data_eng$n) ) / sd(data_eng$n) )
+data_eng$word_source = "english"
+#game
+data_game = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_gaming.csv", header = TRUE )
+data_game = filter(data_game, exNum >= 0, X < 4001)
+data_game$n_shift = ( (data_game$n - mean(data_game$n) ) / sd(data_game$n) ) * 0.2 + 1
+data_game$n = ( (data_game$n - mean(data_game$n) ) / sd(data_game$n) )
+data_game$word_source = "game"
+#apple
+data_apple = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_apple.csv", header = TRUE )
+data_apple = filter(data_apple, exNum >= 0, X < 4001)
+data_apple$n_shift = ( (data_apple$n - mean(data_apple$n) ) / sd(data_apple$n) ) * 0.2 + 1
+data_apple$n = ( (data_apple$n - mean(data_apple$n) ) / sd(data_apple$n) ) 
+data_apple$word_source = "apple"
+#combine
+data = rbind(data_apple, data_eng, data_game)
+head(data)
 
+#plot
 library(ggplot2)
-ggplot(data, aes( x = 1/n, y = exNum)) + geom_point()
-ggplot(data, aes( x = exNum)) + geom_bar()
-ggplot(filter(data,exNum < 25), aes( x = exNum)) + geom_bar()
+ggplot(data, aes( x = 1/n_shift^20, y = exNum, color = word_source)) + geom_point()
+```
+<br>
+I use \( \frac{1}{n^{20}} \) as the x-axis so that the number of dots that are near \( x = 1 \) will not be overwhelming large. It can be noticed that there's a horizontal line, while most of the dots are above the line, which means most of the words have at least some numbers of examples. I want to find that line:
+```{r}
+ggplot(data, aes( x = exNum, )) + geom_bar() + facet_grid(word_source ~ .)
+ggplot(filter(data,exNum < 25), aes( x = exNum)) + geom_bar() + facet_grid(word_source ~ .)
+```
+<br>
+Here, we can see that most words have at least 10 example sentences.
+<br>
+Now, it is also interesting that there is a small peak at \( exNum = 0 \). I print some examples out to see whether I can identify the pattern:
+```{r}
+head(filter(data, exNum == 0, word_source == "apple"), n = 20)
+head(filter(data, exNum == 0, word_source == "english"), n = 20)
+head(filter(data, exNum == 0, word_source == "game"), n = 20)
+```
+As we can see, there are several cases in the words with \(exNum = 0 \): <br>
+
+* common english words that doesn't have a dictionary page, e.g. doesn't, isn't.
+* words in the original html files that was not filtered out during the crawling process, e.g. http, www
+* words related to specific data source, e.g. mincraft(gaming), unix(apple), cpu(apple)
+
+```{r}
+ggplot(data, aes( x = log (n + 2), y = exNum, color = word_source)) + geom_point() + geom_smooth()
 ```
