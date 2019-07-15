@@ -55,3 +55,5 @@ As we can see, there are several cases in the words with \(exNum = 0 \): <br>
 ```{r}
 ggplot(data, aes( x = log (n + 2), y = exNum, color = word_source)) + geom_point() + geom_smooth()
 ```
+<br>
+some new text
