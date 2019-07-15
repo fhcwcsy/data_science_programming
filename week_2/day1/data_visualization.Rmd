@@ -1,0 +1,14 @@
+# Week 2, day 1
+Hao-Chien Wang
+<br>
+
+```{r}
+library(dplyr)
+data = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_english_4000.csv", header = TRUE )
+data = filter(data, exNum >= 0, X < 4001)
+
+library(ggplot2)
+ggplot(data, aes( x = 1/n, y = exNum)) + geom_point()
+ggplot(data, aes( x = exNum)) + geom_bar()
+ggplot(filter(data,exNum < 25), aes( x = exNum)) + geom_bar()
+```

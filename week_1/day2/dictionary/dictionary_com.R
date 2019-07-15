@@ -2,7 +2,7 @@ library(dplyr)
 library(rvest)
 
 #load input wordlist
-word = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/output_600.csv", header = TRUE)
+word = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/output_apple_250.csv", header = TRUE)
 word$exNum = 0
 time = c(Sys.time(), Sys.time(), Sys.time(), Sys.time(), Sys.time(), Sys.time() )
 for(i in 1:NROW(word))
@@ -40,5 +40,9 @@ for(i in 1:NROW(word))
   else{
     cat(i, "/", NROW(word), "    ", as.character(word[i, 1]), "  freq: ", word[i, 2], "    ex = ", word[i, 3], "\n")
   }
+  if( i %% 1000 == 0 )
+  {
+	write.csv(word, file = "~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_apple.csv")
+  }
+
 }
-write.csv(word, file = "~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output.csv")
