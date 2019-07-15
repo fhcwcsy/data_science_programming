@@ -2,6 +2,14 @@
 Hao-Chien Wang
 <br>
 
+**Some variables** <br>
+
+- `n`: number of times a word is used in a source of text.
+- `n_shift`: normalized `n`. Since the numbers of words in total from different sources are different, it must be normalized.
+- `exNum`: Number of sentence examples provided by [`dictionary.com`](www.dictionary.com)
+
+<br>
+
 I use the words collected from three forums in `stackexchange` and look up those words in `dictionary.com` and count the number of example sentences using the crawler. First, I load the data and try to plot some simple graph:
 ```{r}
 library(dplyr)
@@ -32,7 +40,7 @@ library(ggplot2)
 ggplot(data, aes( x = 1/n_shift^20, y = exNum, color = word_source)) + geom_point()
 ```
 <br>
-I use \( \frac{1}{n^{20}} \) as the x-axis so that the number of dots that are near \( x = 1 \) will not be overwhelming large. It can be noticed that there's a horizontal line, while most of the dots are above the line, which means most of the words have at least some numbers of examples. I want to find that line:
+I use \( \frac{1}{n^{20}} \) as the x-axis so that the number of dots that are near \( x = 1 \) will not be overwhelmingly large. It can be noticed that there's a horizontal line, while most of the dots are above the line, which means most of the words have at least some numbers of examples. I want to find that line:
 ```{r}
 ggplot(data, aes( x = exNum, )) + geom_bar() + facet_grid(word_source ~ .)
 ggplot(filter(data,exNum < 25), aes( x = exNum)) + geom_bar() + facet_grid(word_source ~ .)
@@ -52,8 +60,37 @@ As we can see, there are several cases in the words with \(exNum = 0 \): <br>
 * words in the original html files that was not filtered out during the crawling process, e.g. http, www
 * words related to specific data source, e.g. mincraft(gaming), unix(apple), cpu(apple)
 
+<br>
 ```{r}
-ggplot(data, aes( x = log (n + 2), y = exNum, color = word_source)) + geom_point() + geom_smooth()
+ggplot(data, aes( 1/n_shift^40, y = log( exNum + 1), color = word_source)) + geom_point()
 ```
 <br>
-some new text
+Lastly, I examine the the behavior of `exNum` when `n` become small, since we normally look up the dictionary for less used words. I calculate the count of words which \(exNum \leq 5 \). 
+```{r}
+#use new data from the English forum in stackexchange
+data_new = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_english_4000.csv", header = TRUE )
+data_new = filter(data_new, exNum >= 0, X < 4001)
+
+#rescale n 
+data_new$log_n = floor(log(data_new$n)/1)*1
+
+#head(arrange(select( data_new,exNum , n_cut, exNum, word), n_cut, word) , n = 100)
+
+#count the number of data which has less than 5 examples
+data_n = filter( data_new, exNum < 5 ) %>%
+  count( log_n, sort=TRUE )
+  
+#count the total number of data
+data_n_total = data_new %>%
+  count( log_n, sort=TRUE )
+
+#calculate the ratio
+n_ratio = merge(data_n, data_n_total, by = "log_n")
+n_ratio$ratio = n_ratio$n.x / n_ratio$n.y
+head(n_ratio, n = 20)
+
+#plot
+ggplot(n_ratio, aes( x = log_n, y = ratio)) + geom_line() 
+```
+
+It can be concluded that the words that are less used have more sentence examples in the dictionary, which indicates that it is doing a great job. However, the data I use is not very big (only 4000 words, and may even contain some trash words). It can be expected that the ratio will rise again if the wordlist contain more words that are really rarely used. 
