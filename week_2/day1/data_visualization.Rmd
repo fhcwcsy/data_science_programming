@@ -1,6 +1,6 @@
-# Data Visualization
-## Week 2, day 1, hw2
-
+# Week 2, day 1
+**HW2: Data Visualization**
+<br>
 Hao-Chien Wang
 <br>
 
@@ -46,6 +46,7 @@ I use ` e^{-5 \times n\_shift} ` as the x-axis to rescale `n` so I can have a be
 ```{r}
 ggplot(data, aes( x = exNum, )) + geom_bar() + facet_grid(word_source ~ .)
 ```
+<br>
 The result is not so satisfying because the number of words with `exNum = 0` is overwhelmingly large. I print them out to find the reason:
 ```{r}
 head(filter(data, exNum == 0, word_source == "askubuntu"), n = 20)
@@ -58,7 +59,7 @@ As we can see, there are several cases in the words with `exNum = 0`: <br>
 - words in the original html files that was not filtered out during the crawling process, *e.g. http, www*.
 - words related to specific data source, e.g. mincraft(arqade), usr(askubuntu), unix(askubuntu)
 
-Therefore, I have no choice but to filter out the data with `exNum = 0` and plot again:
+Since we seldom look up those kinds of words in the dictionary, I filtered them out  and plot again:
 ```{r}
 data = filter(data, exNum != 0)
 ggplot(data, aes( x = exNum, )) + geom_bar() + facet_grid(word_source ~ .)
@@ -98,4 +99,4 @@ head(n_ratio, n = 20)
 ggplot(n_ratio, aes( x = log_n, y = ratio)) + geom_line() 
 ```
 
-The ratio ir larger when n is either very large or very small, which indicates that when a word is commonly used or very rarely used, there is a larger chance that you will find fewer examples in `dictionary.com`. Therefore, we can conclude that the dictionary has attempted to add more examples to the words that are not so commonly used, but it is still difficult to find examples for those rare words. 
+The ratio is larger when n is either very large or very small, which indicates that when a word is commonly used or very rarely used, there is a larger chance that you will find fewer examples in `dictionary.com`. Therefore, we can conclude that the dictionary has attempted to add more examples to the words that are not so commonly used, but it is still difficult to find examples for those rare words. 
