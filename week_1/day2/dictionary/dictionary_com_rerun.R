@@ -11,10 +11,10 @@ for(i in 4000:97000)
   dictionaryPage = 
     tryCatch(read_html(paste("https://www.dictionary.com/browse/", word[i, 2], sep = "")),
              error = function(e){
-               word[i, 3] <<- -1
+               word[i, 4] <<- -1
              }
     )
-  if(word[i, 3] != -1)
+  if(word[i, 4] != -1)
   {
     exampleUnderDefinitions = html_nodes(dictionaryPage, ".luna-example") 
     exampleInExampleSection = html_nodes(dictionaryPage, ".e15kc6du7") 

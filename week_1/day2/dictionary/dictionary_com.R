@@ -2,10 +2,10 @@ library(dplyr)
 library(rvest)
 
 #load input wordlist
-word = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_english_4000.csv", header = TRUE)
+word = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/output_stackoverflow_20000.csv", header = TRUE)
 word$exNum = 0
 time = c(Sys.time(), Sys.time(), Sys.time(), Sys.time(), Sys.time(), Sys.time() )
-for(i in 4000:NROW(word))
+for(i in 1:NROW(word))
 {
   t_i = Sys.time()
   dictionaryPage = 
@@ -40,9 +40,10 @@ for(i in 4000:NROW(word))
   else{
     cat(i, "/", NROW(word), "    ", as.character(word[i, 1]), "  freq: ", word[i, 2], "    ex = ", word[i, 3], "\n")
   }
-  if( i %% 1000 == 0 )
+  if( i %% 200 == 0 )
   {
-	write.csv(word, file = "~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_english.csv")
+	write.csv(word, file = "~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_stackoverflow.csv")
+  	cat("File written at ", i, "/", NROW(word), "\n")
   }
 
 }
