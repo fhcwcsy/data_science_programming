@@ -42,7 +42,7 @@ library(ggplot2)
 ggplot(data, aes( x = exp( - 5 * n_shift ), y = exNum, color = word_source)) + geom_point()
 ```
 <br>
-I use \( e^{-5 \times n\_shift} \) as the x-axis to rescale `n` so I can have a better view. It can be noticed that there's a horizontal line, while most of the dots are above the line, which means most of the words have at least some numbers of examples. I want to find that line, so I plot the count of different `exNum`:
+I use ` e^{-5 \times n\_shift} ` as the x-axis to rescale `n` so I can have a better view. It can be noticed that there's a horizontal line, while most of the dots are above the line, which means most of the words have at least some numbers of examples. I want to find that line, so I plot the count of different `exNum`:
 ```{r}
 ggplot(data, aes( x = exNum, )) + geom_bar() + facet_grid(word_source ~ .)
 ```
@@ -52,13 +52,13 @@ head(filter(data, exNum == 0, word_source == "askubuntu"), n = 20)
 head(filter(data, exNum == 0, word_source == "english"), n = 20)
 head(filter(data, exNum == 0, word_source == "arqade"), n = 20)
 ```
-As we can see, there are several cases in the words with \(exNum = 0 \): <br>
+As we can see, there are several cases in the words with `exNum = 0`: <br>
 
 - common english words that doesn't have a dictionary page, *e.g. doesn't, isn't*.
 - words in the original html files that was not filtered out during the crawling process, *e.g. http, www*.
 - words related to specific data source, e.g. mincraft(arqade), usr(askubuntu), unix(askubuntu)
 
-Therefore, I have no choice but to filter out the data with \(exNum = 0\) and plot again:
+Therefore, I have no choice but to filter out the data with `exNum = 0` and plot again:
 ```{r}
 data = filter(data, exNum != 0)
 ggplot(data, aes( x = exNum, )) + geom_bar() + facet_grid(word_source ~ .)
@@ -70,7 +70,7 @@ Here, we can see the difference between different data sources. Most words in `a
 <br>
 
 <br>
-Lastly, I examine the the behavior of `exNum` when `n` become small, since we normally look up the dictionary for less used words. I calculate the count of words which \(exNum < 5 \).
+Lastly, I examine the the behavior of `exNum` when `n` become small, since we normally look up the dictionary for less used words. I calculate the count of words which `exNum < 5 `.
 ```{r}
 #use new data from the English forum in stackexchange since I want all n to be positive and unscaled again
 data_new = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_english_20000.csv", header = TRUE )
