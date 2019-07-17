@@ -1,4 +1,6 @@
-# Week 2, day 1
+# Data Visualization
+## Week 2, day 1, hw2
+
 Hao-Chien Wang
 <br>
 
@@ -10,69 +12,72 @@ Hao-Chien Wang
 
 <br>
 
-I use the words collected from three forums in `stackexchange` and look up those words in `dictionary.com` and count the number of example sentences using the crawler. First, I load the data and try to plot some simple graph:
+I use the words collected (with [crawlers](https://fhcwcsy.github.io/data_science_programming/week_1/day2/dictionary/dictionary_project.html)) from three of the largest forums in `stackexchange` (*arqade*, *askubuntu* and *English grammar & usage*) and look up those words in `dictionary.com` and count the number of example sentences using the crawler. First, I load the data and try to plot some simple graph:
 ```{r}
 library(dplyr)
 #English
-data_eng = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_english_4000.csv", header = TRUE )
-data_eng = filter(data_eng, exNum >= 0, X < 4001)
+data_eng = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_english_20000.csv", header = TRUE )
+data_eng = filter(data_eng, exNum >= 0)
 data_eng$n_shift = ( (data_eng$n - mean(data_eng$n) ) / sd(data_eng$n) ) * 0.2 + 1
 data_eng$n = ( (data_eng$n - mean(data_eng$n) ) / sd(data_eng$n) )
 data_eng$word_source = "english"
-#game
-data_game = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_gaming.csv", header = TRUE )
-data_game = filter(data_game, exNum >= 0, X < 4001)
-data_game$n_shift = ( (data_game$n - mean(data_game$n) ) / sd(data_game$n) ) * 0.2 + 1
-data_game$n = ( (data_game$n - mean(data_game$n) ) / sd(data_game$n) )
-data_game$word_source = "game"
-#apple
-data_apple = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_apple.csv", header = TRUE )
-data_apple = filter(data_apple, exNum >= 0, X < 4001)
-data_apple$n_shift = ( (data_apple$n - mean(data_apple$n) ) / sd(data_apple$n) ) * 0.2 + 1
-data_apple$n = ( (data_apple$n - mean(data_apple$n) ) / sd(data_apple$n) ) 
-data_apple$word_source = "apple"
+#arqade
+data_arqade = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_gaming.csv", header = TRUE )
+data_arqade = filter(data_arqade, exNum >= 0)
+data_arqade$n_shift = ( (data_arqade$n - mean(data_arqade$n) ) / sd(data_arqade$n) ) * 0.2 + 1
+data_arqade$n = ( (data_arqade$n - mean(data_arqade$n) ) / sd(data_arqade$n) )
+data_arqade$word_source = "arqade"
+#askubuntu
+data_ubuntu = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_askubuntu.csv", header = TRUE )
+data_ubuntu = filter(data_ubuntu, exNum >= 0)
+data_ubuntu$n_shift = ( (data_ubuntu$n - mean(data_ubuntu$n) ) / sd(data_ubuntu$n) ) * 0.2 + 1
+data_ubuntu$n = ( (data_ubuntu$n - mean(data_ubuntu$n) ) / sd(data_ubuntu$n) ) 
+data_ubuntu$word_source = "askubuntu"
 #combine
-data = rbind(data_apple, data_eng, data_game)
+data = rbind(data_ubuntu, data_eng, data_arqade)
 head(data)
 
 #plot
 library(ggplot2)
-ggplot(data, aes( x = 1/n_shift^20, y = exNum, color = word_source)) + geom_point()
+ggplot(data, aes( x = exp( - 5 * n_shift ), y = exNum, color = word_source)) + geom_point()
 ```
 <br>
-I use \( \frac{1}{n^{20}} \) as the x-axis so that the number of dots that are near \( x = 1 \) will not be overwhelmingly large. It can be noticed that there's a horizontal line, while most of the dots are above the line, which means most of the words have at least some numbers of examples. I want to find that line:
+I use \( e^{-5 \times n\_shift} \) as the x-axis to rescale `n` so I can have a better view. It can be noticed that there's a horizontal line, while most of the dots are above the line, which means most of the words have at least some numbers of examples. I want to find that line, so I plot the count of different `exNum`:
 ```{r}
 ggplot(data, aes( x = exNum, )) + geom_bar() + facet_grid(word_source ~ .)
-ggplot(filter(data,exNum < 25), aes( x = exNum)) + geom_bar() + facet_grid(word_source ~ .)
 ```
-<br>
-Here, we can see that most words have at least 10 example sentences.
-<br>
-Now, it is also interesting that there is a small peak at \( exNum = 0 \). I print some examples out to see whether I can identify the pattern:
+The result is not so satisfying because the number of words with `exNum = 0` is overwhelmingly large. I print them out to find the reason:
 ```{r}
-head(filter(data, exNum == 0, word_source == "apple"), n = 20)
+head(filter(data, exNum == 0, word_source == "askubuntu"), n = 20)
 head(filter(data, exNum == 0, word_source == "english"), n = 20)
-head(filter(data, exNum == 0, word_source == "game"), n = 20)
+head(filter(data, exNum == 0, word_source == "arqade"), n = 20)
 ```
 As we can see, there are several cases in the words with \(exNum = 0 \): <br>
 
-* common english words that doesn't have a dictionary page, e.g. doesn't, isn't.
-* words in the original html files that was not filtered out during the crawling process, e.g. http, www
-* words related to specific data source, e.g. mincraft(gaming), unix(apple), cpu(apple)
+- common english words that doesn't have a dictionary page, *e.g. doesn't, isn't*.
+- words in the original html files that was not filtered out during the crawling process, *e.g. http, www*.
+- words related to specific data source, e.g. mincraft(arqade), usr(askubuntu), unix(askubuntu)
 
-<br>
+Therefore, I have no choice but to filter out the data with \(exNum = 0\) and plot again:
 ```{r}
-ggplot(data, aes( 1/n_shift^40, y = log( exNum + 1), color = word_source)) + geom_point()
+data = filter(data, exNum != 0)
+ggplot(data, aes( x = exNum, )) + geom_bar() + facet_grid(word_source ~ .)
+#zoom in at smaller exNum
+ggplot(filter(data,exNum < 25), aes( x = exNum)) + geom_bar() + facet_grid(word_source ~ .)
 ```
 <br>
-Lastly, I examine the the behavior of `exNum` when `n` become small, since we normally look up the dictionary for less used words. I calculate the count of words which \(exNum \leq 5 \). 
+Here, we can see the difference between different data sources. Most words in `askubuntu` and `arqade` have at least 10 examples, while there is a number of words in the `english` forum that have 5 ~ 10 examples. However, this doesn't necessarily means that users in the `english` forum use words that are more rarely used, as shown in the next part.
+<br>
+
+<br>
+Lastly, I examine the the behavior of `exNum` when `n` become small, since we normally look up the dictionary for less used words. I calculate the count of words which \(exNum < 5 \).
 ```{r}
-#use new data from the English forum in stackexchange
-data_new = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_english_4000.csv", header = TRUE )
-data_new = filter(data_new, exNum >= 0, X < 4001)
+#use new data from the English forum in stackexchange since I want all n to be positive and unscaled again
+data_new = read.csv("~/Documents/summerproj/data_science_programming/week_1/day2/dictionary/dictionary_com_output_english_20000.csv", header = TRUE )
+data_new = filter(data_new, exNum > 0)
 
 #rescale n 
-data_new$log_n = floor(log(data_new$n)/1)*1
+data_new$log_n = floor(log(data_new$n)/0.3)*0.3
 
 #head(arrange(select( data_new,exNum , n_cut, exNum, word), n_cut, word) , n = 100)
 
@@ -84,7 +89,7 @@ data_n = filter( data_new, exNum < 5 ) %>%
 data_n_total = data_new %>%
   count( log_n, sort=TRUE )
 
-#calculate the ratio
+#calculate the ratio. The higher the ratio is, the more words with this value of n have less than 5 examples
 n_ratio = merge(data_n, data_n_total, by = "log_n")
 n_ratio$ratio = n_ratio$n.x / n_ratio$n.y
 head(n_ratio, n = 20)
@@ -93,4 +98,4 @@ head(n_ratio, n = 20)
 ggplot(n_ratio, aes( x = log_n, y = ratio)) + geom_line() 
 ```
 
-It can be concluded that the words that are less used have more sentence examples in the dictionary, which indicates that it is doing a great job. However, the data I use is not very big (only 4000 words, and may even contain some trash words). It can be expected that the ratio will rise again if the wordlist contain more words that are really rarely used. 
+The ratio ir larger when n is either very large or very small, which indicates that when a word is commonly used or very rarely used, there is a larger chance that you will find fewer examples in `dictionary.com`. Therefore, we can conclude that the dictionary has attempted to add more examples to the words that are not so commonly used, but it is still difficult to find examples for those rare words. 
