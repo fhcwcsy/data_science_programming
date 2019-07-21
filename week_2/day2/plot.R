@@ -19,8 +19,9 @@ tdm = select(tdm_raw, 3:ncol(tdm_raw))
 colnames(tdm) = c("word", year)
 tdm = arrange(tdm, desc(tdm[,'2019'])) %>%
   filter( nchar(as.character(word)) != 1 & as.character(word) != "網址")
-head(tdm)
+str(tdm)
 
+#normalize/rescale
 normalize = function(row)
 {
   row / size_MB * 1000
@@ -28,11 +29,13 @@ normalize = function(row)
 word_tmp = tdm[,1]
 tdm_normalized = t(apply(tdm[,2:(ncol(tdm))], 1, normalize))
 rownames(tdm_normalized) = word_tmp
-head(tdm_normalized)
+str(tdm_normalized)
 
+#plot the popularity of the most popular words in 2019
 topten = tdm_normalized[1:10,]
 kable(topten)
 library(reshape2)
+#melt the df so that ggplot can read the data
 topten_melted = melt(t(topten))
 colnames(topten_melted) = c("year", "word", "normalized_frequency")
 head(topten_melted)

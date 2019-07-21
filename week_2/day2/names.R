@@ -11,5 +11,5 @@ for (i in c(1:20)) {
 	name = c( name, newName)
 }
 
-head( name, n = 100)
+head( name, n = 20)
 write.csv( name, file = "./name.csv" )

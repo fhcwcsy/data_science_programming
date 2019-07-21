@@ -20,24 +20,24 @@ readChar("./data/2016.txt", file.info("./data/2016.txt")$size) %>%
 
 ### Generate TDM
 
-Before generating TDM, I wrote another crawler to grab the names of popular political figures:
+Before generating TDM, I wrote another crawler to grab the names of popular political figures from [here](https://dailyview.tw/top100/topic/9?volumn=1&page=1):
 
-```{r, code = readLines("./names.R"), eval=FALSE}
+```{r, code = readLines("./names.R")}
 ```
 
 Also I downloaded a csv containing names of towns in Taiwan. After some rearrangements, I can add those terms to the cutter. 
-```{r, code = readLines("./place.R"), eval=FALSE}
+```{r, code = readLines("./place.R")}
 ```
 Now, I can use `jieba` to cut the files into words and generate TDM.
 
-```{r, code = readLines("./text_mining.R"), eval=FALSE}
+```{r, code = readLines("./text_mining.R")}
 ```
 
 ### Calculate TF_IDF
-```{r, code = readLines("./tfidf.R"), eval=FALSE}
+```{r, code = readLines("./tfidf.R")}
 ```
 
 ### Plot
 I plot the number of posts (estimated by the size of files) and found that the number of posts rocketed during this year. Therefore, I have to normalize the count of each words when I plot the most popular words. In the second plot, we can see that some terms became popular recently while others have already been discussed for years. Note that the words that equally appear in every posts have been removed during the `TF_IDF` process. 
-```{r, code = readLines("./plot.R"), eval=FALSE}
+```{r, code = readLines("./plot.R")}
 ```
