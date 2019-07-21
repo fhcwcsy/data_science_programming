@@ -1,0 +1,43 @@
+# Week 2, day 2
+## hw2: text-mining
+
+**Hao-Chien Wang**
+<br>
+In this assignment, I want to analyze the terms that are used on the *HatePolitics* forum at [`ptt`](htttps://www.ptt.cc). I separate the whole assignments into several files and save the results from every Rscripts so I don't have to run everything everytime. <br>
+
+### Crawler
+First, I use a crawler to grab all texts from the website. The first step is to get all links to the pages that contain the target text, and the second step is to save the text into files and separate them by year posted. <br>
+
+```{r, code = readLines("./crawler.R"), eval=FALSE}
+```
+
+Note: I actually ran 9 crawlers at a time because it is found that running many crawlers simutaneously does not slow down individual progress. I crawl every single posts on the forum. The code above is actually only the first crawler. A part of the result is shown below:
+```{r}
+library(dplyr)
+readChar("./data/2016.txt", file.info("./data/2016.txt")$size) %>%
+  str(nchar.max = 2000)
+```
+
+### Generate TDM
+
+Before generating TDM, I wrote another crawler to grab the names of popular political figures:
+
+```{r, code = readLines("./names.R"), eval=FALSE}
+```
+
+Also I downloaded a csv containing names of towns in Taiwan. After some rearrangements, I can add those terms to the cutter. 
+```{r, code = readLines("./place.R"), eval=FALSE}
+```
+Now, I can use `jieba` to cut the files into words and generate TDM.
+
+```{r, code = readLines("./text_mining.R"), eval=FALSE}
+```
+
+### Calculate TF_IDF
+```{r, code = readLines("./tfidf.R"), eval=FALSE}
+```
+
+### Plot
+I plot the number of posts (estimated by the size of files) and found that the number of posts rocketed during this year. Therefore, I have to normalize the count of each words when I plot the most popular words. In the second plot, we can see that some terms became popular recently while others have already been discussed for years. Note that the words that equally appear in every posts have been removed during the `TF_IDF` process. 
+```{r, code = readLines("./plot.R"), eval=FALSE}
+```
