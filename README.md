@@ -26,5 +26,8 @@ School/Department: NTU Physics 2<br>
 
 ### Week 2
 
-**Day 2**
+**Day 1**
 - [Data visualization](https://fhcwcsy.github.io/data_science_programming/week_2/day1/data_visualization.html)
+
+**Day 2**
+- [text mining](https://fhcwcsy.github.io/data_science_programming/week_2/day2/text_mining.html)
