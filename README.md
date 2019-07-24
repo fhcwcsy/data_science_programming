@@ -31,3 +31,7 @@ School/Department: NTU Physics 2<br>
 
 **Day 2**
 - [text mining](https://fhcwcsy.github.io/data_science_programming/week_2/day2/text_mining.html)
+
+### Week 3
+
+- [Final project](https://github.com/b07901135/2019dsp-summer-project)
